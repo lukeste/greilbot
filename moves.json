@@ -1,0 +1,1232 @@
+{
+   "WRAP": {
+      "fixedName": "Wrap",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "HYPER_BEAM": {
+      "fixedName": "Hyper Beam",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "DARK_PULSE": {
+      "fixedName": "Dark Pulse",
+      "type": "Dark",
+      "emojiId": "<:dark:362383680150437899>"
+   },
+   "SLUDGE": {
+      "fixedName": "Sludge",
+      "type": "Poison",
+      "emojiId": "<:poison:362383680255295489>"
+   },
+   "VICE_GRIP": {
+      "fixedName": "Vice Grip",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "FLAME_WHEEL": {
+      "fixedName": "Flame Wheel",
+      "type": "Fire",
+      "emojiId": "<:fire1:362383680271941632>"
+   },
+   "MEGAHORN": {
+      "fixedName": "Megahorn",
+      "type": "Bug",
+      "emojiId": "<:bug1:362383680150437898>"
+   },
+   "FLAMETHROWER": {
+      "fixedName": "Flamethrower",
+      "type": "Fire",
+      "emojiId": "<:fire1:362383680271941632>"
+   },
+   "DIG": {
+      "fixedName": "Dig",
+      "type": "Ground",
+      "emojiId": "<:ground:362383680255295499>"
+   },
+   "CROSS_CHOP": {
+      "fixedName": "Cross Chop",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "PSYBEAM": {
+      "fixedName": "Psybeam",
+      "type": "Psychic",
+      "emojiId": "<:psychic:362383680351764480>"
+   },
+   "EARTHQUAKE": {
+      "fixedName": "Earthquake",
+      "type": "Ground",
+      "emojiId": "<:ground:362383680255295499>"
+   },
+   "STONE_EDGE": {
+      "fixedName": "Stone Edge",
+      "type": "Rock",
+      "emojiId": "<:rock:362383680355958784>"
+   },
+   "ICE_PUNCH": {
+      "fixedName": "Ice Punch",
+      "type": "Ice",
+      "emojiId": "<:ice:362383680301170688>"
+   },
+   "HEART_STAMP": {
+      "fixedName": "Heart Stamp",
+      "type": "Psychic",
+      "emojiId": "<:psychic:362383680351764480>"
+   },
+   "DISCHARGE": {
+      "fixedName": "Discharge",
+      "type": "Electric",
+      "emojiId": "<:electric:362383680079134731>"
+   },
+   "FLASH_CANNON": {
+      "fixedName": "Flash Cannon",
+      "type": "Steel",
+      "emojiId": "<:steel:362383680364347393>"
+   },
+   "DRILL_PECK": {
+      "fixedName": "Drill Peck",
+      "type": "Flying",
+      "emojiId": "<:flying:362383680024477697>"
+   },
+   "ICE_BEAM": {
+      "fixedName": "Ice Beam",
+      "type": "Ice",
+      "emojiId": "<:ice:362383680301170688>"
+   },
+   "BLIZZARD": {
+      "fixedName": "Blizzard",
+      "type": "Ice",
+      "emojiId": "<:ice:362383680301170688>"
+   },
+   "HEAT_WAVE": {
+      "fixedName": "Heat Wave",
+      "type": "Fire",
+      "emojiId": "<:fire1:362383680271941632>"
+   },
+   "AERIAL_ACE": {
+      "fixedName": "Aerial Ace",
+      "type": "Flying",
+      "emojiId": "<:flying:362383680024477697>"
+   },
+   "DRILL_RUN": {
+      "fixedName": "Drill Run",
+      "type": "Ground",
+      "emojiId": "<:ground:362383680255295499>"
+   },
+   "PETAL_BLIZZARD": {
+      "fixedName": "Petal Blizzard",
+      "type": "Grass",
+      "emojiId": "<:grass:362383680364085248>"
+   },
+   "MEGA_DRAIN": {
+      "fixedName": "Mega Drain",
+      "type": "Grass",
+      "emojiId": "<:grass:362383680364085248>"
+   },
+   "BUG_BUZZ": {
+      "fixedName": "Bug Buzz",
+      "type": "Bug",
+      "emojiId": "<:bug1:362383680150437898>"
+   },
+   "POISON_FANG": {
+      "fixedName": "Poison Fang",
+      "type": "Poison",
+      "emojiId": "<:poison:362383680255295489>"
+   },
+   "NIGHT_SLASH": {
+      "fixedName": "Night Slash",
+      "type": "Dark",
+      "emojiId": "<:dark:362383680150437899>"
+   },
+   "BUBBLE_BEAM": {
+      "fixedName": "Bubble Beam",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "SUBMISSION": {
+      "fixedName": "Submission",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "LOW_SWEEP": {
+      "fixedName": "Low Sweep",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "AQUA_JET": {
+      "fixedName": "Aqua Jet",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "AQUA_TAIL": {
+      "fixedName": "Aqua Tail",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "SEED_BOMB": {
+      "fixedName": "Seed Bomb",
+      "type": "Grass",
+      "emojiId": "<:grass:362383680364085248>"
+   },
+   "PSYSHOCK": {
+      "fixedName": "Psyshock",
+      "type": "Psychic",
+      "emojiId": "<:psychic:362383680351764480>"
+   },
+   "ANCIENT_POWER": {
+      "fixedName": "Ancient Power",
+      "type": "Rock",
+      "emojiId": "<:rock:362383680355958784>"
+   },
+   "ROCK_TOMB": {
+      "fixedName": "Rock Tomb",
+      "type": "Rock",
+      "emojiId": "<:rock:362383680355958784>"
+   },
+   "ROCK_SLIDE": {
+      "fixedName": "Rock Slide",
+      "type": "Rock",
+      "emojiId": "<:rock:362383680355958784>"
+   },
+   "POWER_GEM": {
+      "fixedName": "Power Gem",
+      "type": "Rock",
+      "emojiId": "<:rock:362383680355958784>"
+   },
+   "SHADOW_SNEAK": {
+      "fixedName": "Shadow Sneak",
+      "type": "Ghost",
+      "emojiId": "<:ghost1:362383680070483976>"
+   },
+   "SHADOW_PUNCH": {
+      "fixedName": "Shadow Punch",
+      "type": "Ghost",
+      "emojiId": "<:ghost1:362383680070483976>"
+   },
+   "OMINOUS_WIND": {
+      "fixedName": "Ominous Wind",
+      "type": "Ghost",
+      "emojiId": "<:ghost1:362383680070483976>"
+   },
+   "SHADOW_BALL": {
+      "fixedName": "Shadow Ball",
+      "type": "Ghost",
+      "emojiId": "<:ghost1:362383680070483976>"
+   },
+   "MAGNET_BOMB": {
+      "fixedName": "Magnet Bomb",
+      "type": "Steel",
+      "emojiId": "<:steel:362383680364347393>"
+   },
+   "IRON_HEAD": {
+      "fixedName": "Iron Head",
+      "type": "Steel",
+      "emojiId": "<:steel:362383680364347393>"
+   },
+   "PARABOLIC_CHARGE": {
+      "fixedName": "Parabolic Charge",
+      "type": "Electric",
+      "emojiId": "<:electric:362383680079134731>"
+   },
+   "THUNDER_PUNCH": {
+      "fixedName": "Thunder Punch",
+      "type": "Electric",
+      "emojiId": "<:electric:362383680079134731>"
+   },
+   "THUNDER": {
+      "fixedName": "Thunder",
+      "type": "Electric",
+      "emojiId": "<:electric:362383680079134731>"
+   },
+   "THUNDERBOLT": {
+      "fixedName": "Thunderbolt",
+      "type": "Electric",
+      "emojiId": "<:electric:362383680079134731>"
+   },
+   "TWISTER": {
+      "fixedName": "Twister",
+      "type": "Dragon",
+      "emojiId": "<:dragon1:362383680032997377>"
+   },
+   "DRAGON_PULSE": {
+      "fixedName": "Dragon Pulse",
+      "type": "Dragon",
+      "emojiId": "<:dragon1:362383680032997377>"
+   },
+   "DRAGON_CLAW": {
+      "fixedName": "Dragon Claw",
+      "type": "Dragon",
+      "emojiId": "<:dragon1:362383680032997377>"
+   },
+   "DISARMING_VOICE": {
+      "fixedName": "Disarming Voice",
+      "type": "Fairy",
+      "emojiId": "<:fairy1:362383680263684106>"
+   },
+   "DRAINING_KISS": {
+      "fixedName": "Draining Kiss",
+      "type": "Fairy",
+      "emojiId": "<:fairy1:362383680263684106>"
+   },
+   "DAZZLING_GLEAM": {
+      "fixedName": "Dazzling Gleam",
+      "type": "Fairy",
+      "emojiId": "<:fairy1:362383680263684106>"
+   },
+   "MOONBLAST": {
+      "fixedName": "Moonblast",
+      "type": "Fairy",
+      "emojiId": "<:fairy1:362383680263684106>"
+   },
+   "PLAY_ROUGH": {
+      "fixedName": "Play Rough",
+      "type": "Fairy",
+      "emojiId": "<:fairy1:362383680263684106>"
+   },
+   "CROSS_POISON": {
+      "fixedName": "Cross Poison",
+      "type": "Poison",
+      "emojiId": "<:poison:362383680255295489>"
+   },
+   "SLUDGE_BOMB": {
+      "fixedName": "Sludge Bomb",
+      "type": "Poison",
+      "emojiId": "<:poison:362383680255295489>"
+   },
+   "SLUDGE_WAVE": {
+      "fixedName": "Sludge Wave",
+      "type": "Poison",
+      "emojiId": "<:poison:362383680255295489>"
+   },
+   "GUNK_SHOT": {
+      "fixedName": "Gunk Shot",
+      "type": "Poison",
+      "emojiId": "<:poison:362383680255295489>"
+   },
+   "BONE_CLUB": {
+      "fixedName": "Bone Club",
+      "type": "Ground",
+      "emojiId": "<:ground:362383680255295499>"
+   },
+   "BULLDOZE": {
+      "fixedName": "Bulldoze",
+      "type": "Ground",
+      "emojiId": "<:ground:362383680255295499>"
+   },
+   "MUD_BOMB": {
+      "fixedName": "Mud Bomb",
+      "type": "Ground",
+      "emojiId": "<:ground:362383680255295499>"
+   },
+   "SIGNAL_BEAM": {
+      "fixedName": "Signal Beam",
+      "type": "Bug",
+      "emojiId": "<:bug1:362383680150437898>"
+   },
+   "X_SCISSOR": {
+      "fixedName": "X Scissor",
+      "type": "Bug",
+      "emojiId": "<:bug1:362383680150437898>"
+   },
+   "FLAME_CHARGE": {
+      "fixedName": "Flame Charge",
+      "type": "Fire",
+      "emojiId": "<:fire1:362383680271941632>"
+   },
+   "FLAME_BURST": {
+      "fixedName": "Flame Burst",
+      "type": "Fire",
+      "emojiId": "<:fire1:362383680271941632>"
+   },
+   "FIRE_BLAST": {
+      "fixedName": "Fire Blast",
+      "type": "Fire",
+      "emojiId": "<:fire1:362383680271941632>"
+   },
+   "BRINE": {
+      "fixedName": "Brine",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "WATER_PULSE": {
+      "fixedName": "Water Pulse",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "SCALD": {
+      "fixedName": "Scald",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "HYDRO_PUMP": {
+      "fixedName": "Hydro Pump",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "PSYCHIC": {
+      "fixedName": "Psychic",
+      "type": "Psychic",
+      "emojiId": "<:psychic:362383680351764480>"
+   },
+   "PSYSTRIKE": {
+      "fixedName": "Psystrike",
+      "type": "Psychic",
+      "emojiId": "<:psychic:362383680351764480>"
+   },
+   "ICY_WIND": {
+      "fixedName": "Icy Wind",
+      "type": "Ice",
+      "emojiId": "<:ice:362383680301170688>"
+   },
+   "GIGA_DRAIN": {
+      "fixedName": "Giga Drain",
+      "type": "Grass",
+      "emojiId": "<:grass:362383680364085248>"
+   },
+   "FIRE_PUNCH": {
+      "fixedName": "Fire Punch",
+      "type": "Fire",
+      "emojiId": "<:fire1:362383680271941632>"
+   },
+   "SOLAR_BEAM": {
+      "fixedName": "Solar Beam",
+      "type": "Grass",
+      "emojiId": "<:grass:362383680364085248>"
+   },
+   "LEAF_BLADE": {
+      "fixedName": "Leaf Blade",
+      "type": "Grass",
+      "emojiId": "<:grass:362383680364085248>"
+   },
+   "POWER_WHIP": {
+      "fixedName": "Power Whip",
+      "type": "Grass",
+      "emojiId": "<:grass:362383680364085248>"
+   },
+   "AIR_CUTTER": {
+      "fixedName": "Air Cutter",
+      "type": "Flying",
+      "emojiId": "<:flying:362383680024477697>"
+   },
+   "HURRICANE": {
+      "fixedName": "Hurricane",
+      "type": "Flying",
+      "emojiId": "<:flying:362383680024477697>"
+   },
+   "BRICK_BREAK": {
+      "fixedName": "Brick Break",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "SWIFT": {
+      "fixedName": "Swift",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "HORN_ATTACK": {
+      "fixedName": "Horn Attack",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "STOMP": {
+      "fixedName": "Stomp",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "HYPER_FANG": {
+      "fixedName": "Hyper Fang",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "BODY_SLAM": {
+      "fixedName": "Body Slam",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "REST": {
+      "fixedName": "Rest",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "STRUGGLE": {
+      "fixedName": "Struggle",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "SCALD_BLASTOISE": {
+      "fixedName": "Scald Blastoise",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "HYDRO_PUMP_BLASTOISE": {
+      "fixedName": "Hydro Pump Blastoise",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "WRAP_GREEN": {
+      "fixedName": "Wrap Green",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "WRAP_PINK": {
+      "fixedName": "Wrap Pink",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "FURY_CUTTER_FAST": {
+      "fixedName": "Fury Cutter",
+      "type": "Bug",
+      "emojiId": "<:bug1:362383680150437898>"
+   },
+   "BUG_BITE_FAST": {
+      "fixedName": "Bug Bite",
+      "type": "Bug",
+      "emojiId": "<:bug1:362383680150437898>"
+   },
+   "BITE_FAST": {
+      "fixedName": "Bite",
+      "type": "Dark",
+      "emojiId": "<:dark:362383680150437899>"
+   },
+   "SUCKER_PUNCH_FAST": {
+      "fixedName": "Sucker Punch",
+      "type": "Dark",
+      "emojiId": "<:dark:362383680150437899>"
+   },
+   "DRAGON_BREATH_FAST": {
+      "fixedName": "Dragon Breath",
+      "type": "Dragon",
+      "emojiId": "<:dragon1:362383680032997377>"
+   },
+   "THUNDER_SHOCK_FAST": {
+      "fixedName": "Thunder Shock",
+      "type": "Electric",
+      "emojiId": "<:electric:362383680079134731>"
+   },
+   "SPARK_FAST": {
+      "fixedName": "Spark",
+      "type": "Electric",
+      "emojiId": "<:electric:362383680079134731>"
+   },
+   "LOW_KICK_FAST": {
+      "fixedName": "Low Kick",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "KARATE_CHOP_FAST": {
+      "fixedName": "Karate Chop",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "EMBER_FAST": {
+      "fixedName": "Ember",
+      "type": "Fire",
+      "emojiId": "<:fire1:362383680271941632>"
+   },
+   "WING_ATTACK_FAST": {
+      "fixedName": "Wing Attack",
+      "type": "Flying",
+      "emojiId": "<:flying:362383680024477697>"
+   },
+   "PECK_FAST": {
+      "fixedName": "Peck",
+      "type": "Flying",
+      "emojiId": "<:flying:362383680024477697>"
+   },
+   "LICK_FAST": {
+      "fixedName": "Lick",
+      "type": "Ghost",
+      "emojiId": "<:ghost1:362383680070483976>"
+   },
+   "SHADOW_CLAW_FAST": {
+      "fixedName": "Shadow Claw",
+      "type": "Ghost",
+      "emojiId": "<:ghost1:362383680070483976>"
+   },
+   "VINE_WHIP_FAST": {
+      "fixedName": "Vine Whip",
+      "type": "Grass",
+      "emojiId": "<:grass:362383680364085248>"
+   },
+   "RAZOR_LEAF_FAST": {
+      "fixedName": "Razor Leaf",
+      "type": "Grass",
+      "emojiId": "<:grass:362383680364085248>"
+   },
+   "MUD_SHOT_FAST": {
+      "fixedName": "Mud Shot",
+      "type": "Ground",
+      "emojiId": "<:ground:362383680255295499>"
+   },
+   "ICE_SHARD_FAST": {
+      "fixedName": "Ice Shard",
+      "type": "Ice",
+      "emojiId": "<:ice:362383680301170688>"
+   },
+   "FROST_BREATH_FAST": {
+      "fixedName": "Frost Breath",
+      "type": "Ice",
+      "emojiId": "<:ice:362383680301170688>"
+   },
+   "QUICK_ATTACK_FAST": {
+      "fixedName": "Quick Attack",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "SCRATCH_FAST": {
+      "fixedName": "Scratch",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "TACKLE_FAST": {
+      "fixedName": "Tackle",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "POUND_FAST": {
+      "fixedName": "Pound",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "CUT_FAST": {
+      "fixedName": "Cut",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "POISON_JAB_FAST": {
+      "fixedName": "Poison Jab",
+      "type": "Poison",
+      "emojiId": "<:poison:362383680255295489>"
+   },
+   "ACID_FAST": {
+      "fixedName": "Acid",
+      "type": "Poison",
+      "emojiId": "<:poison:362383680255295489>"
+   },
+   "PSYCHO_CUT_FAST": {
+      "fixedName": "Psycho Cut",
+      "type": "Psychic",
+      "emojiId": "<:psychic:362383680351764480>"
+   },
+   "ROCK_THROW_FAST": {
+      "fixedName": "Rock Throw",
+      "type": "Rock",
+      "emojiId": "<:rock:362383680355958784>"
+   },
+   "METAL_CLAW_FAST": {
+      "fixedName": "Metal Claw",
+      "type": "Steel",
+      "emojiId": "<:steel:362383680364347393>"
+   },
+   "BULLET_PUNCH_FAST": {
+      "fixedName": "Bullet Punch",
+      "type": "Steel",
+      "emojiId": "<:steel:362383680364347393>"
+   },
+   "WATER_GUN_FAST": {
+      "fixedName": "Water Gun",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "SPLASH_FAST": {
+      "fixedName": "Splash",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "WATER_GUN_FAST_BLASTOISE": {
+      "fixedName": "Water Gun Blastoise",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "MUD_SLAP_FAST": {
+      "fixedName": "Mud Slap",
+      "type": "Ground",
+      "emojiId": "<:ground:362383680255295499>"
+   },
+   "ZEN_HEADBUTT_FAST": {
+      "fixedName": "Zen Headbutt",
+      "type": "Psychic",
+      "emojiId": "<:psychic:362383680351764480>"
+   },
+   "CONFUSION_FAST": {
+      "fixedName": "Confusion",
+      "type": "Psychic",
+      "emojiId": "<:psychic:362383680351764480>"
+   },
+   "POISON_STING_FAST": {
+      "fixedName": "Poison Sting",
+      "type": "Poison",
+      "emojiId": "<:poison:362383680255295489>"
+   },
+   "BUBBLE_FAST": {
+      "fixedName": "Bubble",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "FEINT_ATTACK_FAST": {
+      "fixedName": "Feint Attack",
+      "type": "Dark",
+      "emojiId": "<:dark:362383680150437899>"
+   },
+   "STEEL_WING_FAST": {
+      "fixedName": "Steel Wing",
+      "type": "Steel",
+      "emojiId": "<:steel:362383680364347393>"
+   },
+   "FIRE_FANG_FAST": {
+      "fixedName": "Fire Fang",
+      "type": "Fire",
+      "emojiId": "<:fire1:362383680271941632>"
+   },
+   "ROCK_SMASH_FAST": {
+      "fixedName": "Rock Smash",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "TRANSFORM_FAST": {
+      "fixedName": "Transform",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "COUNTER_FAST": {
+      "fixedName": "Counter",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "POWDER_SNOW_FAST": {
+      "fixedName": "Powder Snow",
+      "type": "Ice",
+      "emojiId": "<:ice:362383680301170688>"
+   },
+   "CLOSE_COMBAT": {
+      "fixedName": "Close Combat",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "DYNAMIC_PUNCH": {
+      "fixedName": "Dynamic Punch",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "FOCUS_BLAST": {
+      "fixedName": "Focus Blast",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "AURORA_BEAM": {
+      "fixedName": "Aurora Beam",
+      "type": "Ice",
+      "emojiId": "<:ice:362383680301170688>"
+   },
+   "CHARGE_BEAM_FAST": {
+      "fixedName": "Charge Beam",
+      "type": "Electric",
+      "emojiId": "<:electric:362383680079134731>"
+   },
+   "VOLT_SWITCH_FAST": {
+      "fixedName": "Volt Switch",
+      "type": "Electric",
+      "emojiId": "<:electric:362383680079134731>"
+   },
+   "WILD_CHARGE": {
+      "fixedName": "Wild Charge",
+      "type": "Electric",
+      "emojiId": "<:electric:362383680079134731>"
+   },
+   "ZAP_CANNON": {
+      "fixedName": "Zap Cannon",
+      "type": "Electric",
+      "emojiId": "<:electric:362383680079134731>"
+   },
+   "DRAGON_TAIL_FAST": {
+      "fixedName": "Dragon Tail",
+      "type": "Dragon",
+      "emojiId": "<:dragon1:362383680032997377>"
+   },
+   "AVALANCHE": {
+      "fixedName": "Avalanche",
+      "type": "Ice",
+      "emojiId": "<:ice:362383680301170688>"
+   },
+   "AIR_SLASH_FAST": {
+      "fixedName": "Air Slash",
+      "type": "Flying",
+      "emojiId": "<:flying:362383680024477697>"
+   },
+   "BRAVE_BIRD": {
+      "fixedName": "Brave Bird",
+      "type": "Flying",
+      "emojiId": "<:flying:362383680024477697>"
+   },
+   "SKY_ATTACK": {
+      "fixedName": "Sky Attack",
+      "type": "Flying",
+      "emojiId": "<:flying:362383680024477697>"
+   },
+   "SAND_TOMB": {
+      "fixedName": "Sand Tomb",
+      "type": "Ground",
+      "emojiId": "<:ground:362383680255295499>"
+   },
+   "ROCK_BLAST": {
+      "fixedName": "Rock Blast",
+      "type": "Rock",
+      "emojiId": "<:rock:362383680355958784>"
+   },
+   "INFESTATION_FAST": {
+      "fixedName": "Infestation",
+      "type": "Bug",
+      "emojiId": "<:bug1:362383680150437898>"
+   },
+   "STRUGGLE_BUG_FAST": {
+      "fixedName": "Struggle Bug",
+      "type": "Bug",
+      "emojiId": "<:bug1:362383680150437898>"
+   },
+   "SILVER_WIND": {
+      "fixedName": "Silver Wind",
+      "type": "Bug",
+      "emojiId": "<:bug1:362383680150437898>"
+   },
+   "ASTONISH_FAST": {
+      "fixedName": "Astonish",
+      "type": "Ghost",
+      "emojiId": "<:ghost1:362383680070483976>"
+   },
+   "HEX_FAST": {
+      "fixedName": "Hex",
+      "type": "Ghost",
+      "emojiId": "<:ghost1:362383680070483976>"
+   },
+   "NIGHT_SHADE": {
+      "fixedName": "Night Shade",
+      "type": "Ghost",
+      "emojiId": "<:ghost1:362383680070483976>"
+   },
+   "IRON_TAIL_FAST": {
+      "fixedName": "Iron Tail",
+      "type": "Steel",
+      "emojiId": "<:steel:362383680364347393>"
+   },
+   "GYRO_BALL": {
+      "fixedName": "Gyro Ball",
+      "type": "Steel",
+      "emojiId": "<:steel:362383680364347393>"
+   },
+   "HEAVY_SLAM": {
+      "fixedName": "Heavy Slam",
+      "type": "Steel",
+      "emojiId": "<:steel:362383680364347393>"
+   },
+   "FIRE_SPIN_FAST": {
+      "fixedName": "Fire Spin",
+      "type": "Fire",
+      "emojiId": "<:fire1:362383680271941632>"
+   },
+   "OVERHEAT": {
+      "fixedName": "Overheat",
+      "type": "Fire",
+      "emojiId": "<:fire1:362383680271941632>"
+   },
+   "BULLET_SEED_FAST": {
+      "fixedName": "Bullet Seed",
+      "type": "Grass",
+      "emojiId": "<:grass:362383680364085248>"
+   },
+   "GRASS_KNOT": {
+      "fixedName": "Grass Knot",
+      "type": "Grass",
+      "emojiId": "<:grass:362383680364085248>"
+   },
+   "ENERGY_BALL": {
+      "fixedName": "Energy Ball",
+      "type": "Grass",
+      "emojiId": "<:grass:362383680364085248>"
+   },
+   "EXTRASENSORY_FAST": {
+      "fixedName": "Extrasensory",
+      "type": "Psychic",
+      "emojiId": "<:psychic:362383680351764480>"
+   },
+   "FUTURESIGHT": {
+      "fixedName": "Futuresight",
+      "type": "Psychic",
+      "emojiId": "<:psychic:362383680351764480>"
+   },
+   "MIRROR_COAT": {
+      "fixedName": "Mirror Coat",
+      "type": "Psychic",
+      "emojiId": "<:psychic:362383680351764480>"
+   },
+   "OUTRAGE": {
+      "fixedName": "Outrage",
+      "type": "Dragon",
+      "emojiId": "<:dragon1:362383680032997377>"
+   },
+   "SNARL_FAST": {
+      "fixedName": "Snarl",
+      "type": "Dark",
+      "emojiId": "<:dark:362383680150437899>"
+   },
+   "CRUNCH": {
+      "fixedName": "Crunch",
+      "type": "Dark",
+      "emojiId": "<:dark:362383680150437899>"
+   },
+   "FOUL_PLAY": {
+      "fixedName": "Foul Play",
+      "type": "Dark",
+      "emojiId": "<:dark:362383680150437899>"
+   },
+   "TAKE_DOWN_FAST": {
+      "fixedName": "Take Down",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "WATERFALL_FAST": {
+      "fixedName": "Waterfall",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "SURF": {
+      "fixedName": "Surf",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "DRACO_METEOR": {
+      "fixedName": "Draco Meteor",
+      "type": "Dragon",
+      "emojiId": "<:dragon1:362383680032997377>"
+   },
+   "DOOM_DESIRE": {
+      "fixedName": "Doom Desire",
+      "type": "Steel",
+      "emojiId": "<:steel:362383680364347393>"
+   },
+   "YAWN_FAST": {
+      "fixedName": "Yawn",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "PSYCHO_BOOST": {
+      "fixedName": "Psycho Boost",
+      "type": "Psychic",
+      "emojiId": "<:psychic:362383680351764480>"
+   },
+   "ORIGIN_PULSE": {
+      "fixedName": "Origin Pulse",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "PRECIPICE_BLADES": {
+      "fixedName": "Precipice Blades",
+      "type": "Ground",
+      "emojiId": "<:ground:362383680255295499>"
+   },
+   "PRESENT_FAST": {
+      "fixedName": "Present",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "WEATHER_BALL_FIRE": {
+      "fixedName": "Weather Ball Fire",
+      "type": "Fire",
+      "emojiId": "<:fire1:362383680271941632>"
+   },
+   "WEATHER_BALL_ICE": {
+      "fixedName": "Weather Ball Ice",
+      "type": "Ice",
+      "emojiId": "<:ice:362383680301170688>"
+   },
+   "WEATHER_BALL_ROCK": {
+      "fixedName": "Weather Ball Rock",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "WEATHER_BALL_WATER": {
+      "fixedName": "Weather Ball Water",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "FRENZY_PLANT": {
+      "fixedName": "Frenzy Plant",
+      "type": "Grass",
+      "emojiId": "<:grass:362383680364085248>"
+   },
+   "SMACK_DOWN_FAST": {
+      "fixedName": "Smack Down",
+      "type": "Rock",
+      "emojiId": "<:rock:362383680355958784>"
+   },
+   "BLAST_BURN": {
+      "fixedName": "Blast Burn",
+      "type": "Fire",
+      "emojiId": "<:fire1:362383680271941632>"
+   },
+   "HYDRO_CANNON": {
+      "fixedName": "Hydro Cannon",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "LAST_RESORT": {
+      "fixedName": "Last Resort",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "METEOR_MASH": {
+      "fixedName": "Meteor Mash",
+      "type": "Steel",
+      "emojiId": "<:steel:362383680364347393>"
+   },
+   "SKULL_BASH": {
+      "fixedName": "Skull Bash",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "ACID_SPRAY": {
+      "fixedName": "Acid Spray",
+      "type": "Poison",
+      "emojiId": "<:poison:362383680255295489>"
+   },
+   "EARTH_POWER": {
+      "fixedName": "Earth Power",
+      "type": "Ground",
+      "emojiId": "<:ground:362383680255295499>"
+   },
+   "CRABHAMMER": {
+      "fixedName": "Crabhammer",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "LUNGE": {
+      "fixedName": "Lunge",
+      "type": "Bug",
+      "emojiId": "<:bug1:362383680150437898>"
+   },
+   "CRUSH_CLAW": {
+      "fixedName": "Crush Claw",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "OCTAZOOKA": {
+      "fixedName": "Octazooka",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "MIRROR_SHOT": {
+      "fixedName": "Mirror Shot",
+      "type": "Steel",
+      "emojiId": "<:steel:362383680364347393>"
+   },
+   "SUPER_POWER": {
+      "fixedName": "Super Power",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "FELL_STINGER": {
+      "fixedName": "Fell Stinger",
+      "type": "Bug",
+      "emojiId": "<:bug1:362383680150437898>"
+   },
+   "LEAF_TORNADO": {
+      "fixedName": "Leaf Tornado",
+      "type": "Grass",
+      "emojiId": "<:grass:362383680364085248>"
+   },
+   "LEECH_LIFE": {
+      "fixedName": "Leech Life",
+      "type": "Bug",
+      "emojiId": "<:bug1:362383680150437898>"
+   },
+   "DRAIN_PUNCH": {
+      "fixedName": "Drain Punch",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "SHADOW_BONE": {
+      "fixedName": "Shadow Bone",
+      "type": "Ghost",
+      "emojiId": "<:ghost1:362383680070483976>"
+   },
+   "MUDDY_WATER": {
+      "fixedName": "Muddy Water",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "BLAZE_KICK": {
+      "fixedName": "Blaze Kick",
+      "type": "Fire",
+      "emojiId": "<:fire1:362383680271941632>"
+   },
+   "RAZOR_SHELL": {
+      "fixedName": "Razor Shell",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "POWER_UP_PUNCH": {
+      "fixedName": "Power Up Punch",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "CHARM_FAST": {
+      "fixedName": "Charm",
+      "type": "Fairy",
+      "emojiId": "<:fairy1:362383680263684106>"
+   },
+   "GIGA_IMPACT": {
+      "fixedName": "Giga Impact",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "FRUSTRATION": {
+      "fixedName": "Frustration",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "RETURN": {
+      "fixedName": "Return",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "SYNCHRONOISE": {
+      "fixedName": "Synchronoise",
+      "type": "Psychic",
+      "emojiId": "<:psychic:362383680351764480>"
+   },
+   "LOCK_ON_FAST": {
+      "fixedName": "Lock On",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "THUNDER_FANG_FAST": {
+      "fixedName": "Thunder Fang",
+      "type": "Electric",
+      "emojiId": "<:electric:362383680079134731>"
+   },
+   "ICE_FANG_FAST": {
+      "fixedName": "Ice Fang",
+      "type": "Ice",
+      "emojiId": "<:ice:362383680301170688>"
+   },
+   "HORN_DRILL": {
+      "fixedName": "Horn Drill",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "FISSURE": {
+      "fixedName": "Fissure",
+      "type": "Ground",
+      "emojiId": "<:ground:362383680255295499>"
+   },
+   "SACRED_SWORD": {
+      "fixedName": "Sacred Sword",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "FLYING_PRESS": {
+      "fixedName": "Flying Press",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "AURA_SPHERE": {
+      "fixedName": "Aura Sphere",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "ROCK_WRECKER": {
+      "fixedName": "Rock Wrecker",
+      "type": "Rock",
+      "emojiId": "<:rock:362383680355958784>"
+   },
+   "HIDDEN_POWER_NORMAL_FAST": {
+      "fixedName": "Hidden Power Normal",
+      "type": "Normal",
+      "emojiId": "<:normal:362383680519274506>"
+   },
+   "HIDDEN_POWER_FIGHTING_FAST": {
+      "fixedName": "Hidden Power Fighting",
+      "type": "Fighting",
+      "emojiId": "<:fighting:362383680288849920>"
+   },
+   "HIDDEN_POWER_FLYING_FAST": {
+      "fixedName": "Hidden Power Flying",
+      "type": "Flying",
+      "emojiId": "<:flying:362383680024477697>"
+   },
+   "HIDDEN_POWER_POISON_FAST": {
+      "fixedName": "Hidden Power Poison",
+      "type": "Poison",
+      "emojiId": "<:poison:362383680255295489>"
+   },
+   "HIDDEN_POWER_GROUND_FAST": {
+      "fixedName": "Hidden Power Ground",
+      "type": "Ground",
+      "emojiId": "<:ground:362383680255295499>"
+   },
+   "HIDDEN_POWER_ROCK_FAST": {
+      "fixedName": "Hidden Power Rock",
+      "type": "Rock",
+      "emojiId": "<:rock:362383680355958784>"
+   },
+   "HIDDEN_POWER_BUG_FAST": {
+      "fixedName": "Hidden Power Bug",
+      "type": "Bug",
+      "emojiId": "<:bug1:362383680150437898>"
+   },
+   "HIDDEN_POWER_GHOST_FAST": {
+      "fixedName": "Hidden Power Ghost",
+      "type": "Ghost",
+      "emojiId": "<:ghost1:362383680070483976>"
+   },
+   "HIDDEN_POWER_STEEL_FAST": {
+      "fixedName": "Hidden Power Steel",
+      "type": "Steel",
+      "emojiId": "<:steel:362383680364347393>"
+   },
+   "HIDDEN_POWER_FIRE_FAST": {
+      "fixedName": "Hidden Power Fire",
+      "type": "Fire",
+      "emojiId": "<:fire1:362383680271941632>"
+   },
+   "HIDDEN_POWER_WATER_FAST": {
+      "fixedName": "Hidden Power Water",
+      "type": "Water",
+      "emojiId": "<:water:362383680272072725>"
+   },
+   "HIDDEN_POWER_GRASS_FAST": {
+      "fixedName": "Hidden Power Grass",
+      "type": "Grass",
+      "emojiId": "<:grass:362383680364085248>"
+   },
+   "HIDDEN_POWER_ELECTRIC_FAST": {
+      "fixedName": "Hidden Power Electric",
+      "type": "Electric",
+      "emojiId": "<:electric:362383680079134731>"
+   },
+   "HIDDEN_POWER_PSYCHIC_FAST": {
+      "fixedName": "Hidden Power Psychic",
+      "type": "Psychic",
+      "emojiId": "<:psychic:362383680351764480>"
+   },
+   "HIDDEN_POWER_ICE_FAST": {
+      "fixedName": "Hidden Power Ice",
+      "type": "Ice",
+      "emojiId": "<:ice:362383680301170688>"
+   },
+   "HIDDEN_POWER_DRAGON_FAST": {
+      "fixedName": "Hidden Power Dragon",
+      "type": "Dragon",
+      "emojiId": "<:dragon1:362383680032997377>"
+   },
+   "HIDDEN_POWER_DARK_FAST": {
+      "fixedName": "Hidden Power Dark",
+      "type": "Dark",
+      "emojiId": "<:dark:362383680150437899>"
+   },
+   "HIDDEN_POWER_FAIRY_FAST": {
+      "fixedName": "Hidden Power Fairy",
+      "type": "Fairy",
+      "emojiId": "<:fairy1:362383680263684106>"
+   }
+}
