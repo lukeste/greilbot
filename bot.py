@@ -35,7 +35,7 @@ async def counters(ctx, pokemon: str, weather: str = None):
         weather = 'NO_WEATHER'
     if weather.upper() not in weathers:
         await ctx.send(f'Usage: `?counters <pokemon> [weather]`\n\nAvailable '
-                       f'weathers are `{weathers}\nForm pokemon should be '
+                       f'weathers are `{weathers}`\nForm pokemon should be '
                        f'formatted like `raichu_alola_form`')
         return
 
