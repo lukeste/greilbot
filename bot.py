@@ -39,7 +39,13 @@ async def counters(ctx, mon: str, weather: str = None):
                        f'`{weathers}`')
         return
 
-    pb_link = f'https://fight.pokebattler.com/raids/defenders/{mon.upper()}/levels/RAID_LEVEL_5/attackers/levels/40/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC?sort=OVERALL&weatherCondition={weather.upper()}&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE&randomAssistants=-1&includeLegendary=true&includeShadow=false&attackerTypes=POKEMON_TYPE_ALL&friendLevel=FRIENDSHIP_LEVEL_4'
+    pb_link = f'https://fight.pokebattler.com/raids/defenders/' \
+              f'{mon.upper()}/levels/RAID_LEVEL_5/attackers/levels/35' \
+              f'/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC' \
+              f'?sort=ESTIMATOR&weatherCondition={weather.upper()}' \
+              f'&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE' \
+              f'&randomAssistants=-1&includeLegendary=true&includeShadow=false'\
+              f'&attackerTypes=POKEMON_TYPE_ALL'
     r = requests.get(pb_link)
     d = r.json()
 
