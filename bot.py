@@ -6,7 +6,6 @@ import random
 from discord.ext import commands
 
 bot = commands.Bot(command_prefix='?')
-# test
 
 @bot.event
 async def on_ready():
@@ -28,19 +27,20 @@ def fix_move_name(move_name: str):
 
 
 @bot.command()
-async def counters(ctx, mon: str, weather: str = None):
+async def counters(ctx, pokemon: str, weather: str = None):
     """Displays the top 6 counters"""
     weathers = ['CLEAR', 'RAINY', 'PARTLY_CLOUDY', 'OVERCAST', 'WINDY',
                 'SNOW', 'FOG', 'NO_WEATHER']
     if weather is None:
         weather = 'NO_WEATHER'
     if weather.upper() not in weathers:
-        await ctx.send(f'Weather type not supported. Available weathers are '
-                       f'`{weathers}`')
+        await ctx.send(f'Usage: `?counters <pokemon> [weather]`\n\nAvailable '
+                       f'weathers are `{weathers}\nForm pokemon should be '
+                       f'formatted like `raichu_alola_form`')
         return
 
     pb_link = f'https://fight.pokebattler.com/raids/defenders/' \
-              f'{mon.upper()}/levels/RAID_LEVEL_5/attackers/levels/35' \
+              f'{pokemon.upper()}/levels/RAID_LEVEL_5/attackers/levels/35' \
               f'/strategies/CINEMATIC_ATTACK_WHEN_POSSIBLE/DEFENSE_RANDOM_MC' \
               f'?sort=ESTIMATOR&weatherCondition={weather.upper()}' \
               f'&dodgeStrategy=DODGE_REACTION_TIME&aggregation=AVERAGE' \
@@ -55,13 +55,14 @@ async def counters(ctx, mon: str, weather: str = None):
         await ctx.send('Something went wrong. Maybe a typo?')
         return
 
-    embed = discord.Embed(title=f'{mon.title()} Counters',
+    embed = discord.Embed(title=f'{pokemon.title()} Counters',
                           colour=discord.Colour(random.randint(0, 16777215)),
                           url=pb_link.replace('fight.', ''),
                           description=f'The following are the top 6 counters '
                                       f'in **{weather}**.',
                           timestamp=datetime.datetime.utcnow())
-    embed.set_thumbnail(url=f'https://play.pokemonshowdown.com/sprites/ani/{mon.lower()}.gif')
+    embed.set_thumbnail(url=f'https://play.pokemonshowdown.com/sprites/ani/'
+                            f'{pokemon.lower()}.gif')
     embed.set_footer(text='Data provided by pokebattler.com')
 
     with open('moves.json') as f:
