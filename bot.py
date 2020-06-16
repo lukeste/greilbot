@@ -186,10 +186,8 @@ async def cp(ctx, target_cp: int):
                                     d[name].update({level: [iv_string]})
 
     if len(d) == 0:
-        print('No combinations found')
+        await ctx.send('No combinations found')
     else:
-        # print(json.dumps(d, indent=3))
-        # output_string = '```\n'
         output_string = ''
         for mon in d:
             output_string += f'**{mon.title()}**\n'
@@ -199,9 +197,7 @@ async def cp(ctx, target_cp: int):
                     output_string += f'{iv} '
                 output_string = output_string.strip()
                 output_string += '`\n'
-        # output_string += '```'
-        print(output_string)
-        print(f'Length: {len(output_string)}')
+        #  print(f'Length: {len(output_string)}')
         if len(output_string) > 1999:
             await ctx.send('Too many results')
         else:
