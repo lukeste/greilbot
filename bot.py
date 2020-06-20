@@ -27,19 +27,19 @@ def fix_move_name(move_name: str):
 
 
 @bot.command()
-async def counters(ctx, pokemon: str, weather: str = None):
-    # TODO: check if pokemon has underscore, append _form
+async def counters(ctx, pokemon: str, weather: str = 'NO_WEATHER'):
+    """Displays the top 6 counters for a given Pokemon"""
 
-    """Displays the top 6 counters"""
     weathers = ['CLEAR', 'RAINY', 'PARTLY_CLOUDY', 'OVERCAST', 'WINDY',
                 'SNOW', 'FOG', 'NO_WEATHER']
-    if weather is None:
-        weather = 'NO_WEATHER'
     if weather.upper() not in weathers:
         await ctx.send(f'Usage: `?counters <pokemon> [weather]`\n\nAvailable '
                        f'weathers are `{weathers}`\nForm pokemon should be '
-                       f'formatted like `raichu_alola_form`')
+                       f'formatted like `raichu_alola`')
         return
+
+    if '_' in pokemon:
+        pokemon += '_form'
 
     pb_link = f'https://fight.pokebattler.com/raids/defenders/' \
               f'{pokemon.upper()}/levels/RAID_LEVEL_5/attackers/levels/35' \
@@ -113,6 +113,9 @@ def calc_cp(attack, defense, stamina, level):
 async def hundo(ctx, mon: str):
     # TODO: check if pokemon has underscore, append _form
     """Displays the 100%IV CP for a specified pokemon"""
+
+    if '_' in mon:
+        mon += '_form'
     with open('pokemon.json') as f:
         dex = json.load(f)
         for pokemon in dex['pokemon']:
@@ -141,10 +144,10 @@ async def hundo(ctx, mon: str):
 
 @bot.command()
 async def cp(ctx, target_cp: int):
-    d = {}
-    unreleased = open('unreleased.txt').read().splitlines()
+    cp_dict = {}
     with open('pokemon.json', 'r') as f:
         dex = json.load(f)
+        unreleased = open('unreleased.txt').read().splitlines()
         for mon in dex['pokemon']:
             name = mon['pokemonId']
             if name in unreleased:
@@ -178,30 +181,28 @@ async def cp(ctx, target_cp: int):
                             cp = calc_cp(atk_total, def_total, sta_total, level)
                             if cp == target_cp:
                                 iv_string = f'{atk_iv}/{def_iv}/{sta_iv}'
-                                if name not in d:
-                                    d[name] = {level: [iv_string]}
-                                elif level in d[name]:
-                                    d[name][level].append(iv_string)
+                                if name not in cp_dict:
+                                    cp_dict[name] = {level: [iv_string]}
+                                elif level in cp_dict[name]:
+                                    cp_dict[name][level].append(iv_string)
                                 else:
-                                    d[name].update({level: [iv_string]})
+                                    cp_dict[name].update({level: [iv_string]})
 
-    if len(d) == 0:
+    if len(cp_dict) == 0:
         await ctx.send('No combinations found')
     else:
         output_string = ''
-        for mon in d:
+        for mon in cp_dict:
             output_string += f'**{mon.title()}**\n'
-            for lvl in d[mon]:
+            for lvl in cp_dict[mon]:
                 output_string += f'`Lvl {lvl}: '
-                for iv in d[mon][lvl]:
+                for iv in cp_dict[mon][lvl]:
                     output_string += f'{iv} '
                 output_string = output_string.strip()
                 output_string += '`\n'
-        #  print(f'Length: {len(output_string)}')
         if len(output_string) > 1999:
-            await ctx.send('Too many results')
-        else:
-            await ctx.send(output_string)
+            output_string = output_string[:1999]
+        await ctx.send(output_string)
 
 
 # @bot.event
