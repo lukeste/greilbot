@@ -111,7 +111,6 @@ def calc_cp(attack, defense, stamina, level):
 
 @bot.command()
 async def hundo(ctx, mon: str):
-    # TODO: check if pokemon has underscore, append _form
     """Displays the 100%IV CP for a specified pokemon"""
 
     if '_' in mon:
@@ -128,7 +127,7 @@ async def hundo(ctx, mon: str):
         attack = pokemon['stats']['baseAttack']
         defense = pokemon['stats']['baseDefense']
         stamina = pokemon['stats']['baseStamina']
-    embed = discord.Embed(title=f'100% {mon.title()} CP',
+    embed = discord.Embed(title=f'100% {mon.title().replace("_", " ")} CP',
                           colour=discord.Colour(random.randint(0, 16777215)),
                           timestamp=datetime.datetime.utcnow())
     embed.set_thumbnail(
@@ -201,7 +200,7 @@ async def cp(ctx, target_cp: int):
                 output_string = output_string.strip()
                 output_string += '`\n'
         if len(output_string) > 1999:
-            output_string = output_string[:1999]
+            await ctx.send('Too many results')
         await ctx.send(output_string)
 
 
