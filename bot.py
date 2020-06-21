@@ -57,7 +57,7 @@ async def counters(ctx, pokemon: str, weather: str = 'NO_WEATHER'):
         await ctx.send('Something went wrong. Maybe a typo?')
         return
 
-    embed = discord.Embed(title=f'{pokemon.title()} Counters',
+    embed = discord.Embed(title=f'{pokemon.title().replace("_", " ")} Counters',
                           colour=discord.Colour(random.randint(0, 16777215)),
                           url=pb_link.replace('fight.', ''),
                           description=f'The following are the top 6 counters '
