@@ -38,7 +38,10 @@ async def counters(ctx, pokemon: str, weather: str = 'NO_WEATHER'):
                        f'formatted like `raichu_alola`')
         return
 
-    if '_' in pokemon:
+    # just an ugly way to account for ho-oh formatting. probably need to update
+    if pokemon.lower() == 'ho-oh':
+        pokemon = 'ho_oh'
+    elif '_' in pokemon:
         pokemon += '_form'
 
     pb_link = f'https://fight.pokebattler.com/raids/defenders/' \
