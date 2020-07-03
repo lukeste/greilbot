@@ -39,8 +39,10 @@ async def counters(ctx, pokemon: str, weather: str = 'NO_WEATHER'):
         return
 
     # just an ugly way to account for ho-oh formatting. probably need to update
+    img_link = pokemon.lower()
     if pokemon.lower() == 'ho-oh':
         pokemon = 'ho_oh'
+        img_link = 'hooh'
     elif '_' in pokemon:
         pokemon += '_form'
 
@@ -67,7 +69,7 @@ async def counters(ctx, pokemon: str, weather: str = 'NO_WEATHER'):
                                       f'in **{weather}**.',
                           timestamp=datetime.datetime.utcnow())
     embed.set_thumbnail(url=f'https://play.pokemonshowdown.com/sprites/ani/'
-                            f'{pokemon.lower()}.gif')
+                            f'{img_link}.gif')
     embed.set_footer(text='Data provided by pokebattler.com')
 
     with open('moves.json') as f:
