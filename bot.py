@@ -6,6 +6,8 @@ import random
 from discord.ext import commands
 
 bot = commands.Bot(command_prefix='?')
+# TODO: map json pokemon names to formatted names
+
 
 @bot.event
 async def on_ready():
@@ -43,7 +45,7 @@ async def counters(ctx, pokemon: str, weather: str = 'NO_WEATHER'):
     if pokemon.lower() == 'ho-oh':
         pokemon = 'ho_oh'
         img_link = 'hooh'
-    elif '_' in pokemon:
+    elif '_' in pokemon and pokemon != 'ho_oh':
         pokemon += '_form'
 
     pb_link = f'https://fight.pokebattler.com/raids/defenders/' \
@@ -115,15 +117,18 @@ def calc_cp(attack, defense, stamina, level):
 
 
 @bot.command()
-async def hundo(ctx, mon: str):
+async def hundo(ctx, pokemon: str):
     """Displays the 100%IV CP for a specified pokemon"""
 
-    if '_' in mon:
-        mon += '_form'
+    if pokemon.lower() == 'ho-oh':
+        pokemon = 'ho_oh'
+        img_link = 'hooh'
+    elif '_' in pokemon and pokemon != 'ho_oh':
+        pokemon += '_form'
     with open('pokemon.json') as f:
         dex = json.load(f)
         for pokemon in dex['pokemon']:
-            if pokemon['pokemonId'] == mon.upper():
+            if pokemon['pokemonId'] == pokemon.upper():
                 break
             pokemon = None
         if pokemon is None:
@@ -132,11 +137,11 @@ async def hundo(ctx, mon: str):
         attack = pokemon['stats']['baseAttack']
         defense = pokemon['stats']['baseDefense']
         stamina = pokemon['stats']['baseStamina']
-    embed = discord.Embed(title=f'100% {mon.title().replace("_", " ")} CP',
+    embed = discord.Embed(title=f'100% {pokemon.title().replace("_", " ")} CP',
                           colour=discord.Colour(random.randint(0, 16777215)),
                           timestamp=datetime.datetime.utcnow())
     embed.set_thumbnail(
-        url=f'https://play.pokemonshowdown.com/sprites/ani/{mon.lower()}.gif')
+        url=f'https://play.pokemonshowdown.com/sprites/ani/{pokemon.lower()}.gif')
 
     lvls = [15, 20, 25, 40]
     for lvl in lvls:
@@ -207,6 +212,11 @@ async def cp(ctx, target_cp: int):
         if len(output_string) > 1999:
             await ctx.send('Too many results')
         await ctx.send(output_string)
+
+
+@bot.command()
+async def w(ctx):
+    pass
 
 
 # @bot.event
