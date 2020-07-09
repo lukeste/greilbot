@@ -233,7 +233,7 @@ async def w(ctx):
                    '342837467713634314': 'rv',
                    '436032119718805505': 'central',
                    '342837520171532288': 'southern',
-                   '246877047488512000': 'sr'}
+                   '246877047488512000': 'all'}
     channel_id = str(ctx.message.channel.id)
     if channel_id not in channel_ids:
         channel_name = 'all'
