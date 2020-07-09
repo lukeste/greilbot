@@ -3,9 +3,15 @@ import requests
 import json
 import datetime
 import random
+import googlemaps
+from difflib import get_close_matches as gcm
 from discord.ext import commands
 
 bot = commands.Bot(command_prefix='?')
+with open('gkey.txt', 'r') as kf:
+    gkey = kf.read()
+gmaps = googlemaps.Client(key=gkey)
+
 # TODO: map json pokemon names to formatted names
 
 
@@ -120,6 +126,7 @@ def calc_cp(attack, defense, stamina, level):
 async def hundo(ctx, pokemon: str):
     """Displays the 100%IV CP for a specified pokemon"""
 
+    img_link = pokemon.lower()
     if pokemon.lower() == 'ho-oh':
         pokemon = 'ho_oh'
         img_link = 'hooh'
@@ -127,21 +134,21 @@ async def hundo(ctx, pokemon: str):
         pokemon += '_form'
     with open('pokemon.json') as f:
         dex = json.load(f)
-        for pokemon in dex['pokemon']:
-            if pokemon['pokemonId'] == pokemon.upper():
+        for mon in dex['pokemon']:
+            if mon['pokemonId'] == pokemon.upper():
                 break
-            pokemon = None
-        if pokemon is None:
+            mon = None
+        if mon is None:
             await ctx.send('Pokemon not found')
             return
-        attack = pokemon['stats']['baseAttack']
-        defense = pokemon['stats']['baseDefense']
-        stamina = pokemon['stats']['baseStamina']
+        attack = mon['stats']['baseAttack']
+        defense = mon['stats']['baseDefense']
+        stamina = mon['stats']['baseStamina']
     embed = discord.Embed(title=f'100% {pokemon.title().replace("_", " ")} CP',
                           colour=discord.Colour(random.randint(0, 16777215)),
                           timestamp=datetime.datetime.utcnow())
     embed.set_thumbnail(
-        url=f'https://play.pokemonshowdown.com/sprites/ani/{pokemon.lower()}.gif')
+        url=f'https://play.pokemonshowdown.com/sprites/ani/{img_link}.gif')
 
     lvls = [15, 20, 25, 40]
     for lvl in lvls:
@@ -216,8 +223,52 @@ async def cp(ctx, target_cp: int):
 
 @bot.command()
 async def w(ctx):
-    pass
+    msg = ctx.message.content
+    if len(msg) < 4:
+        return
+    channel_ids = {'342419901870505984': 'novato',
+                   '495682875732131840': 'so_novato',
+                   '424011906177564691': 'marinwood_tl',
+                   '342837391922429952': 'sr',
+                   '342837467713634314': 'rv',
+                   '436032119718805505': 'central',
+                   '342837520171532288': 'southern',
+                   '246877047488512000': 'sr'}
+    channel_id = str(ctx.message.channel.id)
+    if channel_id not in channel_ids:
+        channel_name = 'all'
+    else:
+        channel_name = channel_ids[channel_id]
+    gym_name = msg[3:]
+    with open(f'gyms/{channel_name}.json', 'r') as f:
+        gyms = json.load(f)
+    if gcm(gym_name, gyms, cutoff=0.7):
+        # add cutoff=0.7 possibly
+        gym_name = gcm(gym_name, gyms, cutoff=0.7)[0]
+    else:
+        alias_list = {}
+        for gym in gyms:
+            for alias in gyms[gym]['aliases']:
+                alias_list[alias] = gym
+        if gcm(gym_name, alias_list):
+            gym_name = alias_list[gcm(gym_name, alias_list)[0]]
+        else:
+            await ctx.send('Gym not found')
+            return
 
+    lat = gyms[gym_name]['lat']
+    lng = gyms[gym_name]['lng']
+    url = f'http://maps.google.com/maps?q={lat},{lng}'
+    address = gmaps.reverse_geocode(f'{lat},{lng}')[0]['formatted_address']
+    embed = discord.Embed(title=gym_name, url=url,
+                          colour=discord.Colour(random.randint(0, 16777215)),
+                          description=f'{address}\n\n{url}')
+    if 'img' in gyms[gym_name]:
+        embed.set_thumbnail(url=gyms[gym_name]['img'])
+    embed.set_image(url=f'https://maps.googleapis.com/maps/api/staticmap'
+                        f'?center{lat},{lng}&markers=color:red%7C'
+                        f'{lat},{lng}&size=250x125&zoom=15&key={gkey}')
+    await ctx.send(embed=embed)
 
 # @bot.event
 # async def on_message(message):
