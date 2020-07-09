@@ -242,16 +242,18 @@ async def w(ctx):
     gym_name = msg[3:]
     with open(f'gyms/{channel_name}.json', 'r') as f:
         gyms = json.load(f)
-    if gcm(gym_name, gyms):
+    gcm_result = gcm(gym_name, gyms)
+    if gcm_result:
         # add cutoff=0.7 possibly
-        gym_name = gcm(gym_name, gyms)[0]
+        gym_name = gcm_result[0]
     else:
         alias_list = {}
         for gym in gyms:
             for alias in gyms[gym]['aliases']:
                 alias_list[alias] = gym
-        if gcm(gym_name, alias_list):
-            gym_name = alias_list[gcm(gym_name, alias_list)[0]]
+        gcm_result = gcm(gym_name, alias_list)
+        if gcm_result:
+            gym_name = alias_list[gcm_result[0]]
         else:
             await ctx.send('Gym not found')
             return
