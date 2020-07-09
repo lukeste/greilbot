@@ -2,281 +2,353 @@
    "Bennie": {
       "lat": 38.108008,
       "lng": -122.572862,
-      "img": "http://lh3.googleusercontent.com/zVAw6N5fEduxRteateHY1bjkAl2u2oub0i5JbGWYTyGZ9JmRKFRmLvcJVWIWjDilCR-Iv86Yvj9fxd1fufS_oOVP9gc"
+      "img": "http://lh3.googleusercontent.com/zVAw6N5fEduxRteateHY1bjkAl2u2oub0i5JbGWYTyGZ9JmRKFRmLvcJVWIWjDilCR-Iv86Yvj9fxd1fufS_oOVP9gc",
+      "aliases": []
    },
    "Windows of Wisdom": {
       "lat": 38.107842,
       "lng": -122.58157,
-      "img": "http://lh3.googleusercontent.com/AL7S05FYv_YyX-vYILj9fxeAvJGEFBohPHZbRCbl3aXXxFZzyjyS3OU8iuGZ7DRkJxWnJNnsIHUQkDayMEA-6zWk5j81"
+      "img": "http://lh3.googleusercontent.com/AL7S05FYv_YyX-vYILj9fxeAvJGEFBohPHZbRCbl3aXXxFZzyjyS3OU8iuGZ7DRkJxWnJNnsIHUQkDayMEA-6zWk5j81",
+      "aliases": []
    },
    "Marin County Free Library": {
       "lat": 38.106949,
       "lng": -122.580161,
-      "img": "http://lh3.googleusercontent.com/3qeSSFqkcs5TCkWi7DyLmk6MMob4UqT0nwYURJFIKCCKCwZksf4tNulB4zyhcFo7s2KURYM-mJ-sivR40WWb-BVYtAY"
+      "img": "http://lh3.googleusercontent.com/3qeSSFqkcs5TCkWi7DyLmk6MMob4UqT0nwYURJFIKCCKCwZksf4tNulB4zyhcFo7s2KURYM-mJ-sivR40WWb-BVYtAY",
+      "aliases": []
    },
    "Hall of Novato Grove Druids No. 113": {
       "lat": 38.106829,
       "lng": -122.566539,
-      "img": "http://lh3.googleusercontent.com/c9mm7zbmhlwpDUdSs8IDGZekxKQgJiEefHa4ELRqPsycXOpiA7abr44QcWTRieUGJmagpI4snmprSGav6xi-eZGUjg"
+      "img": "http://lh3.googleusercontent.com/c9mm7zbmhlwpDUdSs8IDGZekxKQgJiEefHa4ELRqPsycXOpiA7abr44QcWTRieUGJmagpI4snmprSGav6xi-eZGUjg",
+      "aliases": []
    },
    "Hilltop 1892": {
       "lat": 38.102329,
       "lng": -122.567718,
-      "img": "http://lh3.googleusercontent.com/9t3TPOyjLGsBdTs42gxTpxLX8967jAC-Yu64diLbEBhXpOGHBjT3p8iAFoxcnfdICGx8qkrW4w2BpRn6RtVNeivjBA"
+      "img": "http://lh3.googleusercontent.com/9t3TPOyjLGsBdTs42gxTpxLX8967jAC-Yu64diLbEBhXpOGHBjT3p8iAFoxcnfdICGx8qkrW4w2BpRn6RtVNeivjBA",
+      "aliases": []
    },
    "Novato Train Station": {
       "lat": 38.106574,
       "lng": -122.565145,
-      "img": "http://lh3.googleusercontent.com/nUbgeN_eBRlzyXR5aYG7Qy3mINcXCnKqRpQSzXBlmJ-nhIsx_GJXK0PliULQOSz_7j-nxRDWPjZKkO19NCQkiY6JjbI"
+      "img": "http://lh3.googleusercontent.com/nUbgeN_eBRlzyXR5aYG7Qy3mINcXCnKqRpQSzXBlmJ-nhIsx_GJXK0PliULQOSz_7j-nxRDWPjZKkO19NCQkiY6JjbI",
+      "aliases": [
+         "new train station"
+      ]
    },
    "Old Novato Railroad Station": {
       "lat": 38.106484,
       "lng": -122.566547,
-      "img": "http://lh3.googleusercontent.com/4erWjFlZbBStI-XxXpvvYx5fAxs2zEDDTD4igG2J2Cgoj0Apj9XcdOuNYV-Ze_g-5kxvO8OtGGumio9poRDQPRdkXRE"
+      "img": "http://lh3.googleusercontent.com/4erWjFlZbBStI-XxXpvvYx5fAxs2zEDDTD4igG2J2Cgoj0Apj9XcdOuNYV-Ze_g-5kxvO8OtGGumio9poRDQPRdkXRE",
+      "aliases": [
+         "old train station"
+      ]
    },
    "Sweetest XM on Earth": {
       "lat": 38.107202,
       "lng": -122.568738,
-      "img": "http://lh3.googleusercontent.com/iBx6s7bmt1g94nTnfC3B4QS_-G0yibj2BgavzO3-DYscRkrQ24gjY8sCx5RMoyT2rj8U7tjUvrHl3O90eVoq9q7S4ruG"
+      "img": "http://lh3.googleusercontent.com/iBx6s7bmt1g94nTnfC3B4QS_-G0yibj2BgavzO3-DYscRkrQ24gjY8sCx5RMoyT2rj8U7tjUvrHl3O90eVoq9q7S4ruG",
+      "aliases": [
+         "powells",
+         "celines"
+      ]
    },
    "Blvd Clock": {
       "lat": 38.1018,
       "lng": -122.572173,
-      "img": "http://lh3.googleusercontent.com/UNuest8H5LsKXhA2QdG0asI_tyHwsnGYmtikHvSCDTaP2KoGSCn3lSXNXemYHOtyyaJixehyH0lcMA8PwkJb7qOVbKM"
+      "img": "http://lh3.googleusercontent.com/UNuest8H5LsKXhA2QdG0asI_tyHwsnGYmtikHvSCDTaP2KoGSCn3lSXNXemYHOtyyaJixehyH0lcMA8PwkJb7qOVbKM",
+      "aliases": []
    },
    "Novato Theatre": {
       "lat": 38.107506,
       "lng": -122.569513,
-      "img": "http://lh3.googleusercontent.com/g1ujWunDl9N6gxOKj3eigdr9g6w-CmqAQ0C9i7uF5dll0SzWXg3kncM2SG4TFWIcAPqfiJAYlKz6wGCBVeoBtJunyOQ"
+      "img": "http://lh3.googleusercontent.com/g1ujWunDl9N6gxOKj3eigdr9g6w-CmqAQ0C9i7uF5dll0SzWXg3kncM2SG4TFWIcAPqfiJAYlKz6wGCBVeoBtJunyOQ",
+      "aliases": []
    },
    "Our Lady of Loretto Church": {
       "lat": 38.108569,
       "lng": -122.583696,
-      "img": "http://lh3.googleusercontent.com/zheKbEJPPhS8wI7Y2VKYKDHDryVeopklm40c4wCKB0SlhbKsq9QF7MfE4qZ5FyONPPIqBo5ftzIvTxqfvJh5z5wk1g"
+      "img": "http://lh3.googleusercontent.com/zheKbEJPPhS8wI7Y2VKYKDHDryVeopklm40c4wCKB0SlhbKsq9QF7MfE4qZ5FyONPPIqBo5ftzIvTxqfvJh5z5wk1g",
+      "aliases": []
    },
    "Old Town Mural": {
       "lat": 38.107618,
       "lng": -122.571336,
-      "img": "http://lh3.googleusercontent.com/XzH4z9pTe2I4ptwsH76pZkVmTCOSGVb7-1oV6OHUUxIey9uPihhfNsvu8K_mddfDlYYXFWgDqAI9qzNnSAoyl1HGJ7Q"
+      "img": "http://lh3.googleusercontent.com/XzH4z9pTe2I4ptwsH76pZkVmTCOSGVb7-1oV6OHUUxIey9uPihhfNsvu8K_mddfDlYYXFWgDqAI9qzNnSAoyl1HGJ7Q",
+      "aliases": []
    },
    "Lee Gerner Park": {
       "lat": 38.106901,
       "lng": -122.578813,
-      "img": "http://lh3.googleusercontent.com/hLYwhodvQfHKGCdX_GJy17Ctdr-ShpHFsibOgEuDAUYnb4UcK6pcAwvbHloUmNgyvrcqr6E1LppOCjVRF-XRu9O9wK8"
+      "img": "http://lh3.googleusercontent.com/hLYwhodvQfHKGCdX_GJy17Ctdr-ShpHFsibOgEuDAUYnb4UcK6pcAwvbHloUmNgyvrcqr6E1LppOCjVRF-XRu9O9wK8",
+      "aliases": []
    },
    "Otto J Stroeh Memory Rock": {
       "lat": 38.114391,
       "lng": -122.589837,
-      "img": "http://lh3.googleusercontent.com/QpteqkViO9IUt13S719h5WrD4uqeewv23wUVf0UtlrXPIPnyEKAEyykHT4PYekUXOfxi3Qhjj1-Znmybw1KlKUDRwK8"
+      "img": "http://lh3.googleusercontent.com/QpteqkViO9IUt13S719h5WrD4uqeewv23wUVf0UtlrXPIPnyEKAEyykHT4PYekUXOfxi3Qhjj1-Znmybw1KlKUDRwK8",
+      "aliases": [
+         "pioneer",
+         "pioneer park"
+      ]
    },
    "Steelhead...In Novato???": {
       "lat": 38.114933,
       "lng": -122.602737,
-      "img": "http://lh3.googleusercontent.com/B5Ycbd7rfPPr2gqXZ2KT_ksGmLV88-rzaSWSVWuxjNIWqn3fSsTIHEXMXYYyurDF7dx3T4c53xirJTPOuSBxU_xc_uA"
+      "img": "http://lh3.googleusercontent.com/B5Ycbd7rfPPr2gqXZ2KT_ksGmLV88-rzaSWSVWuxjNIWqn3fSsTIHEXMXYYyurDF7dx3T4c53xirJTPOuSBxU_xc_uA",
+      "aliases": [
+         "steelhead"
+      ]
    },
    "Museum of the American Indian": {
       "lat": 38.115227,
       "lng": -122.603107,
-      "img": "http://lh3.googleusercontent.com/ICM44T2maWfUZyLEDaV3dZte2V_hbwjhfqRKAmmIo0w453OFVFryjKRSSzsjBUiVz1O85elys4nGYXysrOLoiGopSnY"
+      "img": "http://lh3.googleusercontent.com/ICM44T2maWfUZyLEDaV3dZte2V_hbwjhfqRKAmmIo0w453OFVFryjKRSSzsjBUiVz1O85elys4nGYXysrOLoiGopSnY",
+      "aliases": [
+         "miwok museum"
+      ]
    },
    "Living Word Chapel": {
       "lat": 38.110697,
       "lng": -122.589469,
-      "img": "http://lh3.googleusercontent.com/5yU-0HF5KeiNsMfluI3Jb0t6lQEqZcG3vGOulGcJzJa9h9uVwS9g8h1X_fGM6r4I-qXYnAjrpFMcBF2PPVHt4bpi0GY"
+      "img": "http://lh3.googleusercontent.com/5yU-0HF5KeiNsMfluI3Jb0t6lQEqZcG3vGOulGcJzJa9h9uVwS9g8h1X_fGM6r4I-qXYnAjrpFMcBF2PPVHt4bpi0GY",
+      "aliases": []
    },
    "Park haven Playground": {
       "lat": 38.115218,
       "lng": -122.595116,
-      "img": "http://lh3.googleusercontent.com/drSbncWdl82xaJo5AYxq8Qt6dYe1y1YA4SRVJKSTmWq_EX-H1OPwZPsEhG9O84qMMNFqBv_PPchgkFD6kflCjtHeNOs"
+      "img": "http://lh3.googleusercontent.com/drSbncWdl82xaJo5AYxq8Qt6dYe1y1YA4SRVJKSTmWq_EX-H1OPwZPsEhG9O84qMMNFqBv_PPchgkFD6kflCjtHeNOs",
+      "aliases": []
    },
    "Welcome Sign": {
       "lat": 38.122312,
       "lng": -122.604333,
-      "img": "http://lh3.googleusercontent.com/e3dWffMDDeyY1m2lr376GO-zE9X0SuG6JYurMILCBryBfQ4V9oaGn8gDiZstWypXFcZNT7wrgzk9bkLklg1JZWcwC6s"
+      "img": "http://lh3.googleusercontent.com/e3dWffMDDeyY1m2lr376GO-zE9X0SuG6JYurMILCBryBfQ4V9oaGn8gDiZstWypXFcZNT7wrgzk9bkLklg1JZWcwC6s",
+      "aliases": []
    },
    "Open Door Church": {
       "lat": 38.110267,
       "lng": -122.5884,
-      "img": "http://lh3.googleusercontent.com/b_NMKm7O3mO7P8IVjpBSnAbEe7ZCwubIK39sOg7qZFJbQg0G3dbvTr5qPJzoF4rBDPe0zaEd7TDI4H94QUJPy714EN0"
+      "img": "http://lh3.googleusercontent.com/b_NMKm7O3mO7P8IVjpBSnAbEe7ZCwubIK39sOg7qZFJbQg0G3dbvTr5qPJzoF4rBDPe0zaEd7TDI4H94QUJPy714EN0",
+      "aliases": []
    },
    "Welcome To Mt Burdell": {
       "lat": 38.125932,
       "lng": -122.592817,
-      "img": "http://lh3.googleusercontent.com/pr-So0AbpMT-cykfiHg4S5xF125vTr_wMBZmsUsg0CTX38zsJsaDkfMO9ji80MDyQ1YXzD7mLyqnPGq_ACzxIiZQ_-g"
+      "img": "http://lh3.googleusercontent.com/pr-So0AbpMT-cykfiHg4S5xF125vTr_wMBZmsUsg0CTX38zsJsaDkfMO9ji80MDyQ1YXzD7mLyqnPGq_ACzxIiZQ_-g",
+      "aliases": []
    },
    "Acorn Bench": {
       "lat": 38.108869,
       "lng": -122.577077,
-      "img": "http://lh3.googleusercontent.com/C6r6a6G9YhoytHXnln2-gIBhwP8NnUsxoOTv2HDBpDx4b3mrb7-Te8JGbXrwzc6Jc4ln9GwvIJU9Oi5vp710QkWu6fQ"
+      "img": "http://lh3.googleusercontent.com/C6r6a6G9YhoytHXnln2-gIBhwP8NnUsxoOTv2HDBpDx4b3mrb7-Te8JGbXrwzc6Jc4ln9GwvIJU9Oi5vp710QkWu6fQ",
+      "aliases": []
    },
    "\"Olive Pit Neighbors\" Plaque": {
       "lat": 38.109953,
       "lng": -122.563235,
-      "img": "http://lh3.googleusercontent.com/ubY_CO3MNjVhK6uAQJg8nNqJ-fS7-YR1tpstkHMrwCExJx8cO89aWRuYgooB4QnogNVKax7WsHSB1GKWeNXsJSOzUJo"
+      "img": "http://lh3.googleusercontent.com/ubY_CO3MNjVhK6uAQJg8nNqJ-fS7-YR1tpstkHMrwCExJx8cO89aWRuYgooB4QnogNVKax7WsHSB1GKWeNXsJSOzUJo",
+      "aliases": []
    },
    "Welcome To Old Town Novato": {
       "lat": 38.111153,
       "lng": -122.568872,
-      "img": "http://lh3.googleusercontent.com/lrQLTe8tf2VWkIJ3T3LQBN2H797x7GOAjDIjNCks-P0mZUIqB-hFT9bU-xXI1BEjpHMRHKCIjaZ-GplWZcWabLAnmwYz"
+      "img": "http://lh3.googleusercontent.com/lrQLTe8tf2VWkIJ3T3LQBN2H797x7GOAjDIjNCks-P0mZUIqB-hFT9bU-xXI1BEjpHMRHKCIjaZ-GplWZcWabLAnmwYz",
+      "aliases": [
+         "novato sign"
+      ]
    },
    "San Marin SMART Station": {
       "lat": 38.120697,
       "lng": -122.566171,
-      "img": "http://lh3.googleusercontent.com/h2UKbYn3HfnkQS072yHVLigH-iyH_f349laPSR4oxZwHefc_1GaPFKd4rdHbUHx8THfUCSOGHrNVi9mRUWwu197q9_k"
+      "img": "http://lh3.googleusercontent.com/h2UKbYn3HfnkQS072yHVLigH-iyH_f349laPSR4oxZwHefc_1GaPFKd4rdHbUHx8THfUCSOGHrNVi9mRUWwu197q9_k",
+      "aliases": []
    },
    "Valley Memorial Park": {
       "lat": 38.120462,
       "lng": -122.543563,
-      "img": "http://lh3.googleusercontent.com/6zHz1EK96DxqwRdsoXJdMyGgGGFc7KgILhv1BmJZLin0V-Gr_-DswDoqiiBCfmmYg2vHc-MBgk9_XnWCeBEJG6aTIuZo"
+      "img": "http://lh3.googleusercontent.com/6zHz1EK96DxqwRdsoXJdMyGgGGFc7KgILhv1BmJZLin0V-Gr_-DswDoqiiBCfmmYg2vHc-MBgk9_XnWCeBEJG6aTIuZo",
+      "aliases": []
    },
    "Little Mountain Trail Off Michelle": {
       "lat": 38.113684,
       "lng": -122.615164,
-      "img": "http://lh3.googleusercontent.com/iQ4mSyulPWWIcwh-t9Ke3Gxfbp4Byv8UejXyT18s7CQiJqweI5X9rtdDG8muLy63K6HU9gKMzasz0CTZzITAxWo_pro"
+      "img": "http://lh3.googleusercontent.com/iQ4mSyulPWWIcwh-t9Ke3Gxfbp4Byv8UejXyT18s7CQiJqweI5X9rtdDG8muLy63K6HU9gKMzasz0CTZzITAxWo_pro",
+      "aliases": []
    },
    "Mt Burdell Open Space Trail Head": {
       "lat": 38.125422,
       "lng": -122.586716,
-      "img": "http://lh3.googleusercontent.com/qsrmcMZEI1cd3azBxJ1FuyCZF9NfqyVUY9ZtPvIe8RvIHDyI9AdD7XAAhtcYjADK2XOk77A7jFQHpijdEoc29ladBt1_"
+      "img": "http://lh3.googleusercontent.com/qsrmcMZEI1cd3azBxJ1FuyCZF9NfqyVUY9ZtPvIe8RvIHDyI9AdD7XAAhtcYjADK2XOk77A7jFQHpijdEoc29ladBt1_",
+      "aliases": []
    },
    "Novato Seventh-day Adventist Church": {
       "lat": 38.121872,
       "lng": -122.585036,
-      "img": "http://lh3.googleusercontent.com/mU-T_rVU9PNsR5qJKepakWwAsQCbTgLF7A9HXFnFMfbaa3moZWlexOBUG_S2PF0Xifiu-1jntvcMjgkHQXl8K01VW-4"
+      "img": "http://lh3.googleusercontent.com/mU-T_rVU9PNsR5qJKepakWwAsQCbTgLF7A9HXFnFMfbaa3moZWlexOBUG_S2PF0Xifiu-1jntvcMjgkHQXl8K01VW-4",
+      "aliases": []
    },
    "Rolling Hills Fountain": {
       "lat": 38.125295,
       "lng": -122.603473,
-      "img": "http://lh3.googleusercontent.com/elSG5bMv8p3GkudsNL7rvFiFoOY7lMQ59KJFcBhxudUJCnQtxulCmUzCRNbAb8D2X-AcMQqH9TNq9r2q3tw-pm9HPBg"
+      "img": "http://lh3.googleusercontent.com/elSG5bMv8p3GkudsNL7rvFiFoOY7lMQ59KJFcBhxudUJCnQtxulCmUzCRNbAb8D2X-AcMQqH9TNq9r2q3tw-pm9HPBg",
+      "aliases": []
    },
    "San Marin Little Free Library": {
       "lat": 38.122537,
       "lng": -122.597185,
-      "img": "http://lh3.googleusercontent.com/jJnAg4YAGXWb-mvFkokK_Fs0qL1bYmRTBRsRgo3A7eUSpj6zSVksqyAHg_z7tx79A0u9VIuFDpR-ape5z8RMwERjDWY"
+      "img": "http://lh3.googleusercontent.com/jJnAg4YAGXWb-mvFkokK_Fs0qL1bYmRTBRsRgo3A7eUSpj6zSVksqyAHg_z7tx79A0u9VIuFDpR-ape5z8RMwERjDWY",
+      "aliases": []
    },
    "Mt Burdell - Salt Lick And San Carlos Trail Mark Post": {
       "lat": 38.131626,
       "lng": -122.58961,
-      "img": "http://lh3.googleusercontent.com/49HUyR5X7QzNIAhYcQNoIkpxDF-Lfikg5zzRXCU5H22W8y8Gz39nP38Cibi88RMrGgb5K2kJCB58KOu_d0NTGGWBWRPM"
+      "img": "http://lh3.googleusercontent.com/49HUyR5X7QzNIAhYcQNoIkpxDF-Lfikg5zzRXCU5H22W8y8Gz39nP38Cibi88RMrGgb5K2kJCB58KOu_d0NTGGWBWRPM",
+      "aliases": []
    },
    "Buck Institute": {
       "lat": 38.132053,
       "lng": -122.56438,
-      "img": "http://lh3.googleusercontent.com/phI32YUPXxpJIGa8MHI0JzvM1HnAjG6ueMSe7TiNDEPA13y7nWNLNJJydfh8lm-pnmqzUHDuAaSViK5Gf93fe5isPy8G"
+      "img": "http://lh3.googleusercontent.com/phI32YUPXxpJIGa8MHI0JzvM1HnAjG6ueMSe7TiNDEPA13y7nWNLNJJydfh8lm-pnmqzUHDuAaSViK5Gf93fe5isPy8G",
+      "aliases": []
    },
    "All Saints Lutheran Church": {
       "lat": 38.118103,
       "lng": -122.609348,
-      "img": "http://lh3.googleusercontent.com/fv90c3IdS0yXBxtRnsP6YgTB0MDauSI1tbDbpAdsFUmyTchPcap0Mnje494oTJyH7E_wtQm2QmR-Fi58iWiGvSM9Cg"
+      "img": "http://lh3.googleusercontent.com/fv90c3IdS0yXBxtRnsP6YgTB0MDauSI1tbDbpAdsFUmyTchPcap0Mnje494oTJyH7E_wtQm2QmR-Fi58iWiGvSM9Cg",
+      "aliases": []
    },
    "Myrtle Place Trail": {
       "lat": 38.125823,
       "lng": -122.607597,
-      "img": "http://lh3.googleusercontent.com/WBDmN-vz71Gs79LnspYxpyNu3jjV2OzH7EGXRNZiQPHmoO8vVRUkVk9mvflsrLmmcb3rvUg5_-8N6S9YacR6iBK2gVhv"
+      "img": "http://lh3.googleusercontent.com/WBDmN-vz71Gs79LnspYxpyNu3jjV2OzH7EGXRNZiQPHmoO8vVRUkVk9mvflsrLmmcb3rvUg5_-8N6S9YacR6iBK2gVhv",
+      "aliases": []
    },
    "Mount Burdell Woodleaf Court Trail": {
       "lat": 38.124036,
       "lng": -122.582257,
-      "img": "http://lh3.googleusercontent.com/uXc2_sFbvMD_qKM_1OwU1PWANkVBjmzLSoB3SAq1rN_Jonzz8T9LioK7XM4zUuQy8Gv-Bbbawi3xylH0bQqNeMI6eg"
+      "img": "http://lh3.googleusercontent.com/uXc2_sFbvMD_qKM_1OwU1PWANkVBjmzLSoB3SAq1rN_Jonzz8T9LioK7XM4zUuQy8Gv-Bbbawi3xylH0bQqNeMI6eg",
+      "aliases": []
    },
    "Little Free Library": {
       "lat": 38.117781,
       "lng": -122.608904,
-      "img": "http://lh3.googleusercontent.com/zCAIZPc1-XK4uIZl9ENwlkKEi6E02dKpUiWgEZH71zfRkiwKeo61zEr9evlf9SZAD2qrd7L6L1Ukssll0Xl1JNDlM8g"
+      "img": "http://lh3.googleusercontent.com/zCAIZPc1-XK4uIZl9ENwlkKEi6E02dKpUiWgEZH71zfRkiwKeo61zEr9evlf9SZAD2qrd7L6L1Ukssll0Xl1JNDlM8g",
+      "aliases": []
    },
    "Mt Burdell from Cobblestone": {
       "lat": 38.129466,
       "lng": -122.573267,
-      "img": "http://lh3.googleusercontent.com/Znn_-ZzdVIY2IsLhMAjd5mUKKB7Z_8_1__RRDlJ5AmNLBLujUBMERlfL95IHqfwMydhE38cB-Ftt17UmrOOK0TCnd_I"
+      "img": "http://lh3.googleusercontent.com/Znn_-ZzdVIY2IsLhMAjd5mUKKB7Z_8_1__RRDlJ5AmNLBLujUBMERlfL95IHqfwMydhE38cB-Ftt17UmrOOK0TCnd_I",
+      "aliases": []
    },
    "Jennifer Moore Memorial Plaque": {
       "lat": 38.114056,
       "lng": -122.58943,
-      "img": "http://lh3.googleusercontent.com/kVMln8Ljk1rhfeo5EOEU_CNEKS0GmqvtWLHrB2L2BY8IIc9sgg0X9d8fU6Al1gdO2-8AjHYfIKVOoxUUxjFSVTt6ebc"
+      "img": "http://lh3.googleusercontent.com/kVMln8Ljk1rhfeo5EOEU_CNEKS0GmqvtWLHrB2L2BY8IIc9sgg0X9d8fU6Al1gdO2-8AjHYfIKVOoxUUxjFSVTt6ebc",
+      "aliases": []
    },
    "LDS Church": {
       "lat": 38.109758,
       "lng": -122.600803,
-      "img": "http://lh3.googleusercontent.com/38HIYUCn0Q0h-4k7YBz5ZFHZlDoQMgww1DTZ6Z9L07FQICi64nih_6vhYOHpUjboei5sFwqft5k6vkc7Yiuc5Zjz2og"
+      "img": "http://lh3.googleusercontent.com/38HIYUCn0Q0h-4k7YBz5ZFHZlDoQMgww1DTZ6Z9L07FQICi64nih_6vhYOHpUjboei5sFwqft5k6vkc7Yiuc5Zjz2og",
+      "aliases": []
    },
    "Mount Burdell Creekside Fire Road Trailhead": {
       "lat": 38.125804,
       "lng": -122.581721,
-      "img": "http://lh3.googleusercontent.com/jLzojs41zDYSSBi32XjKKl0bA7v7sSADGUIJ7gRFHbdgnHBk-1EMXTX7z7EFfwmE0lZqTGew42HjdEn7KP8JCW25ynE"
+      "img": "http://lh3.googleusercontent.com/jLzojs41zDYSSBi32XjKKl0bA7v7sSADGUIJ7gRFHbdgnHBk-1EMXTX7z7EFfwmE0lZqTGew42HjdEn7KP8JCW25ynE",
+      "aliases": []
    },
    "Miwok Trail Marker": {
       "lat": 38.115212,
       "lng": -122.599712,
-      "img": "http://lh3.googleusercontent.com/ajBYze16_4LLf3uCNxZmP9rfy1tQxadKW3gHN_8T6CSKx54K9OASHsFw06D5_CGyi4X1Pcvltzrz9EcLhjvqG_-vHgc"
+      "img": "http://lh3.googleusercontent.com/ajBYze16_4LLf3uCNxZmP9rfy1tQxadKW3gHN_8T6CSKx54K9OASHsFw06D5_CGyi4X1Pcvltzrz9EcLhjvqG_-vHgc",
+      "aliases": []
    },
    "Northwoods Bowmen's Club": {
       "lat": 38.115981,
       "lng": -122.599022,
-      "img": "http://lh3.googleusercontent.com/6FCLQ9jH7_-RdzyuznkpsEYthjr_CpuNsID4FN1pSVsF3khwtiGSv_4HnvhRh6UVWR1gDkgjMlrp_2QCaFVxHlUin_LU"
+      "img": "http://lh3.googleusercontent.com/6FCLQ9jH7_-RdzyuznkpsEYthjr_CpuNsID4FN1pSVsF3khwtiGSv_4HnvhRh6UVWR1gDkgjMlrp_2QCaFVxHlUin_LU",
+      "aliases": []
    },
    "Novato Fire Protection Fountain": {
       "lat": 38.12143,
       "lng": -122.604319,
-      "img": "http://lh3.googleusercontent.com/yDkzsZBuL3GRLGGbsi7sUSyG0FWWRz6nRqJ7NxDn-e-_UeRMa9T56uY7beNeT1INZ8TrpeqOCvNbfmI3MDzKHaSIMm0"
+      "img": "http://lh3.googleusercontent.com/yDkzsZBuL3GRLGGbsi7sUSyG0FWWRz6nRqJ7NxDn-e-_UeRMa9T56uY7beNeT1INZ8TrpeqOCvNbfmI3MDzKHaSIMm0",
+      "aliases": []
    },
    "San Andreas Court Fire Road Marker": {
       "lat": 38.124728,
       "lng": -122.600479,
-      "img": "http://lh3.googleusercontent.com/JbQXN21uWfGEXGg8AOK0wzuI0Lid8HxHDs241qenD3jCNYXBAfD5WpjNOlTHbK5fswxRd5zHZUbg-fxjiaLXKj3ptA"
+      "img": "http://lh3.googleusercontent.com/JbQXN21uWfGEXGg8AOK0wzuI0Lid8HxHDs241qenD3jCNYXBAfD5WpjNOlTHbK5fswxRd5zHZUbg-fxjiaLXKj3ptA",
+      "aliases": []
    },
    "Al Rueger Trail Marker": {
       "lat": 38.115592,
       "lng": -122.598203,
-      "img": "http://lh3.googleusercontent.com/mbWZt6U7X-JuIf1Au4oJDyN6quNa-hhkvzU1F03uryRzzd6hEBHfWaxCi78hyY40aa_fzvwB158anjS2cdqzSqjzxrQ"
+      "img": "http://lh3.googleusercontent.com/mbWZt6U7X-JuIf1Au4oJDyN6quNa-hhkvzU1F03uryRzzd6hEBHfWaxCi78hyY40aa_fzvwB158anjS2cdqzSqjzxrQ",
+      "aliases": []
    },
    "Miwok Park Access Trail Marker": {
       "lat": 38.117636,
       "lng": -122.601223,
-      "img": "http://lh3.googleusercontent.com/W6TiOg2N4fxIlSiNOdTlSeQcAXUgi8F5iqut_-z5utA6pPoAdwAA047uOsZfFheSdhXIOdC8CUBGezoQlxL-zGsVI30"
+      "img": "http://lh3.googleusercontent.com/W6TiOg2N4fxIlSiNOdTlSeQcAXUgi8F5iqut_-z5utA6pPoAdwAA047uOsZfFheSdhXIOdC8CUBGezoQlxL-zGsVI30",
+      "aliases": []
    },
    "Rush Creek Trail Head": {
       "lat": 38.118527,
       "lng": -122.564299,
-      "img": "http://lh3.googleusercontent.com/jndW5XSPY6_ilCJZYe-v9rjEF9KygUkkuKsrRR8i9usG7y_Cvx44w2_omdctr7zvZpT4Ty2n3J5VizIeGhzde9ZQaSxy"
+      "img": "http://lh3.googleusercontent.com/jndW5XSPY6_ilCJZYe-v9rjEF9KygUkkuKsrRR8i9usG7y_Cvx44w2_omdctr7zvZpT4Ty2n3J5VizIeGhzde9ZQaSxy",
+      "aliases": []
    },
    "San Marin Fire Road Trail Marker": {
       "lat": 38.125416,
       "lng": -122.586367,
-      "img": "http://lh3.googleusercontent.com/3arnJ3JeoJoV_tTCGf_OcfNy7FBhsJB1x8MEDvboxSjnemZvuezNtNkaG3D7vSz0L7F7E-1HtzVVQlUGRwMyCUoAkA"
+      "img": "http://lh3.googleusercontent.com/3arnJ3JeoJoV_tTCGf_OcfNy7FBhsJB1x8MEDvboxSjnemZvuezNtNkaG3D7vSz0L7F7E-1HtzVVQlUGRwMyCUoAkA",
+      "aliases": []
    },
    "O'Hair Park": {
       "lat": 38.116202,
       "lng": -122.610468,
-      "img": "http://lh3.googleusercontent.com/MDT0o3uLnY5163dRuKQ6h-vbCMzMfO-nczDNLlNv_8oBzqIANyzeTINTWHDvt23DzFEThQn68SimCcox3SFmXqOdJA"
+      "img": "http://lh3.googleusercontent.com/MDT0o3uLnY5163dRuKQ6h-vbCMzMfO-nczDNLlNv_8oBzqIANyzeTINTWHDvt23DzFEThQn68SimCcox3SFmXqOdJA",
+      "aliases": []
    },
    "Dwarf Oak Trail": {
       "lat": 38.119548,
       "lng": -122.613824,
-      "img": "http://lh3.googleusercontent.com/o149IkO4txOqHJuuw9d_2v-wqLFP5MfAQHL3_UJwQA__Sn0bH1gJUn_6mdyhiLDNXUuDq7jpbbfEfb0YZD2WiKAY-JA"
+      "img": "http://lh3.googleusercontent.com/o149IkO4txOqHJuuw9d_2v-wqLFP5MfAQHL3_UJwQA__Sn0bH1gJUn_6mdyhiLDNXUuDq7jpbbfEfb0YZD2WiKAY-JA",
+      "aliases": []
    },
    "Dogbone Meadow": {
       "lat": 38.120293,
       "lng": -122.617139,
-      "img": "http://lh3.googleusercontent.com/ncJOwvV0rJZRuxw1BhEtrXrZ9rOMuyaLIIQBINkdSkkRXSbvXtGBAXQA1DOfrXonD1qZ8FYm2Qv969tESL-yriqZEQ"
+      "img": "http://lh3.googleusercontent.com/ncJOwvV0rJZRuxw1BhEtrXrZ9rOMuyaLIIQBINkdSkkRXSbvXtGBAXQA1DOfrXonD1qZ8FYm2Qv969tESL-yriqZEQ",
+      "aliases": []
    },
    "Mt Burdell Open Space Preserve on Sotelo Way": {
       "lat": 38.12644,
       "lng": -122.590663,
-      "img": "http://lh3.googleusercontent.com/E25rin5XPFHlmg6kyva83FeueASpiHQ_Pvrkp5fhEKUU_XrYNaGKxMzQphj139hlSs1VEki8cqINXhAjfn4edXaAJ20"
+      "img": "http://lh3.googleusercontent.com/E25rin5XPFHlmg6kyva83FeueASpiHQ_Pvrkp5fhEKUU_XrYNaGKxMzQphj139hlSs1VEki8cqINXhAjfn4edXaAJ20",
+      "aliases": []
    },
    "Dwarf Oak Trail Pedestrian Bridge": {
       "lat": 38.122413,
       "lng": -122.612729,
-      "img": "http://lh3.googleusercontent.com/vKPE9ag2UnykuzXxuQpsHaSV4RsjE7dxqjoA4m48CEVZ6PydOvAqPQDL4puef7GvM-jfAw9eMiqfyJT7nkr6zCTnHg"
+      "img": "http://lh3.googleusercontent.com/vKPE9ag2UnykuzXxuQpsHaSV4RsjE7dxqjoA4m48CEVZ6PydOvAqPQDL4puef7GvM-jfAw9eMiqfyJT7nkr6zCTnHg",
+      "aliases": []
    },
    "Rush Creek Open Space Preserve": {
       "lat": 38.116717,
       "lng": -122.56044,
-      "img": "http://lh3.googleusercontent.com/-vR_aNdUdW10Yi2jk0eILlsOZsX1g9gV7AwMIb3voOLqviNXl7kasSr8Z1SK1CDAoQPpENZZ_uZCVb4pBFnI82xEPLU"
+      "img": "http://lh3.googleusercontent.com/-vR_aNdUdW10Yi2jk0eILlsOZsX1g9gV7AwMIb3voOLqviNXl7kasSr8Z1SK1CDAoQPpENZZ_uZCVb4pBFnI82xEPLU",
+      "aliases": []
    },
    "San Marin Meadows Baseball Field": {
       "lat": 38.123575,
       "lng": -122.57376,
-      "img": "http://lh3.googleusercontent.com/ruCoMc1rGblQ0w18CmkZFnyekavPwT5zsdNcHUJ5zEkdQ_yLq18CWFKFSMKaWb-mXt-SnTVIMs63r9gCL260wyJOhoA"
+      "img": "http://lh3.googleusercontent.com/ruCoMc1rGblQ0w18CmkZFnyekavPwT5zsdNcHUJ5zEkdQ_yLq18CWFKFSMKaWb-mXt-SnTVIMs63r9gCL260wyJOhoA",
+      "aliases": []
    }
 }
