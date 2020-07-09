@@ -1,5 +1,6 @@
 .idea/
 key.txt
+gkey.txt
 Pipfile
 Pipfile.lock
 gyms/other/
