@@ -327,5 +327,11 @@
       "lng": -122.481337,
       "img": "http://lh3.googleusercontent.com/w7QJa4fT4FIdQ34MHinWhPAgtb7j8EFq4HFpy98qhl7Y1JYPxSemewux1aqfR99ZQ_Sb1Cj__lyxnNWrLCi5QhLYydL4",
       "aliases": []
+   },
+   "Dominican Gardens Statue": {
+      "lat": 37.974509,
+      "lng": -122.519977,
+      "img":"http://lh3.googleusercontent.com/FcxuHiEgd1JlR8Y4_cQC7L0IrV7Gmqu6bCc_IY2Umy0BwScgFdZKig0POSjZohghO16n2DEgIWKsOD-9SrH-QAOOushc",
+      "aliases": []
    }
 }
