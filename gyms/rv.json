@@ -149,5 +149,11 @@
       "lng": -122.591285,
       "img": "http://lh3.googleusercontent.com/MxZKwHCTxLbA8lM0Sl_BdtmJ5nPs_99DQwXI-oa7glTrFFvNvQYYmhLHoWz-mvElOJbsJLXHeW4huqUegPRI6WQV",
       "aliases": []
+   },
+   "St Anselm Catholic Church": {
+      "lat": 37.969022,
+      "lng": -122.561977,
+      "image":"http://lh3.googleusercontent.com/FO0ZBVLO6hgCqNf0BjTxzewgeVdkcHx25Nb6fG4oSK15kF1wHOdwVCV4dpW11hB-raQlyuzPGDRN8wfZuszV89qnA7eH",
+      "aliases": []
    }
 }
