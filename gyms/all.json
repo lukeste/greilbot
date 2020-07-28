@@ -2441,5 +2441,13 @@
       "lng": -122.561977,
       "image":"http://lh3.googleusercontent.com/FO0ZBVLO6hgCqNf0BjTxzewgeVdkcHx25Nb6fG4oSK15kF1wHOdwVCV4dpW11hB-raQlyuzPGDRN8wfZuszV89qnA7eH",
       "aliases": []
+   },
+   "Trinity Church Cross": {
+      "lat": 37.966506,
+      "lng": -122.529174,
+      "img":"http://lh3.googleusercontent.com/CiJD2lZaU0DBJXqDGsYAPotdqWL9hXwL2pym3gkAze_xDjvCTiaEwZbxXwDvQmEcoijzTF4xSubiUgZBUW0j4NIA2Q",
+      "aliases": [
+         "trinity"
+      ]
    }
 }
