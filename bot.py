@@ -6,6 +6,7 @@ import random
 import googlemaps
 from difflib import get_close_matches as gcm
 from discord.ext import commands
+from discord.ext.commands import CommandNotFound
 
 bot = commands.Bot(command_prefix='?')
 with open('gkey.txt', 'r') as kf:
@@ -13,6 +14,7 @@ with open('gkey.txt', 'r') as kf:
 gmaps = googlemaps.Client(key=gkey)
 
 # TODO: map json pokemon names to formatted names
+# TODO: remove emoji id from move.json, do some type to emoji function
 
 
 @bot.event
@@ -21,6 +23,13 @@ async def on_ready():
     print(bot.user.name)
     print(bot.user.id)
     print('------')
+
+
+@bot.event
+async def on_command_error(ctx, error):
+    if isinstance(error, CommandNotFound):
+        return
+    raise error
 
 
 def fix_move_name(move_name: str):
@@ -32,6 +41,13 @@ def fix_move_name(move_name: str):
             fixed += word + ' '
     fixed = fixed.strip()
     return fixed
+
+
+# @bot.command()
+# async def getroles(ctx):
+#     with open('all_roles.txt', 'a') as f:
+#         for role in ctx.guild.roles:
+#             f.write(f'{role}\n')
 
 
 @bot.command()
