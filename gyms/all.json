@@ -2449,5 +2449,11 @@
       "aliases": [
          "trinity"
       ]
+   },
+   "Dominican University Sign": {
+      "lat": 37.981474,
+      "lng": -122.517825,
+      "img": "http://lh3.googleusercontent.com/fHwt7MrXGPLLlDg7rtfXWQ0z2ZupS7W7xMksK7_ufA4XyLTb7VMuS_aP98YAng0Qqq_3xulhXIb-iDl-rpZZrFZsfg",
+      "aliases": []
    }
 }
