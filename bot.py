@@ -15,6 +15,7 @@ gmaps = googlemaps.Client(key=gkey)
 
 # TODO: map json pokemon names to formatted names
 # TODO: remove emoji id from move.json, do some type to emoji function
+# TODO: remove .0 from non-half levels to save characters
 
 
 @bot.event
@@ -201,6 +202,8 @@ async def cp(ctx, target_cp: int):
                 level = i / 2.0
                 if level == 40.5:
                     level = 41
+                if level % 2 == 0 or level % 2 == 1:
+                    level = int(level)
 
                 for atk_iv in range(12, 16):
                     for def_iv in range(12, 16):
@@ -225,7 +228,7 @@ async def cp(ctx, target_cp: int):
     else:
         output_string = ''
         for mon in cp_dict:
-            output_string += f'**{mon.title()}**\n'
+            output_string += f'**{mon.title()}**\n'.replace('_', ' ')
             for lvl in cp_dict[mon]:
                 output_string += f'`Lvl {lvl}: '
                 for iv in cp_dict[mon][lvl]:

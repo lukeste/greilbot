@@ -116472,6 +116472,70 @@
                "cinematicMove": "CLOSE_COMBAT"
             }
          ]
+      },
+      {
+         "pokemonId": "MEGA_VENUSAUR",
+         "stats": {
+            "baseStamina": 190,
+            "baseAttack": 241,
+            "baseDefense": 246
+         }
+      },
+      {
+         "pokemonId": "MEGA_CHARIZARD_X",
+         "stats": {
+            "baseStamina": 186,
+            "baseAttack": 273,
+            "baseDefense": 213
+         }
+      },
+      {
+         "pokemonId": "MEGA_CHARIZARD_Y",
+         "stats": {
+            "baseStamina": 186,
+            "baseAttack": 319,
+            "baseDefense": 212
+         }
+      },
+      {
+         "pokemonId": "MEGA_BlASTOISE",
+         "stats": {
+            "baseStamina": 188,
+            "baseAttack": 264,
+            "baseDefense": 237
+         }
+      },
+      {
+         "pokemonId": "MEGA_BEEDRILL",
+         "stats": {
+            "baseStamina": 163,
+            "baseAttack": 303,
+            "baseDefense": 148
+         }
+      },
+      {
+         "pokemonId": "MEGA_PIGEOT",
+         "stats": {
+            "baseStamina": 195,
+            "baseAttack": 280,
+            "baseDefense": 175
+         }
+      },
+      {
+         "pokemonId": "MEGA_GENGAR",
+         "stats": {
+            "baseStamina": 155,
+            "baseAttack": 349,
+            "baseDefense": 199
+         }
+      },
+      {
+         "pokemonId": "MEGA_HOUNDOOM",
+         "stats": {
+            "baseStamina": 181,
+            "baseAttack": 289,
+            "baseDefense": 194
+         }
       }
    ]
 }
