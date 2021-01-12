@@ -134,7 +134,13 @@ def calc_cp(attack, defense, stamina, level):
            35: 0.76156384, 35.5: 0.7644860647, 36: 0.76739717,
            36.5: 0.7702972656, 37: 0.7731865, 37.5: 0.7760649616,
            38: 0.77893275, 38.5: 0.7817900548, 39: 0.784637, 39.5: 0.7874736075,
-           40: 0.7903, 41: 0.79530001}
+           40: 0.7903, 40.5: 0.792803968, 41: 0.79530001, 41.5: 0.797800015,
+           42: 0.8003, 42.5: 0.802799995, 43: 0.8053, 43.5: 0.802799995,
+           44: 0.81029999, 44.5: 0.812799985, 45: 0.81529999,
+           45.5: 0.81779999, 46: 0.82029999, 46.5: 0.82279999,
+           47: 0.82529999, 47.5: 0.82779999, 48: 0.83029999,
+           48.5: 0.83279999, 49: 0.83529999, 49.5: 0.83779999, 50: 0.84029999,
+           51: 0.8453}
 
     return int(attack * defense**0.5 * stamina**0.5 * cpm[level]**2 / 10)
 
@@ -167,7 +173,7 @@ async def hundo(ctx, pokemon: str):
     embed.set_thumbnail(
         url=f'https://play.pokemonshowdown.com/sprites/ani/{img_link}.gif')
 
-    lvls = [15, 20, 25, 40]
+    lvls = [15, 20, 25, 40, 50]
     for lvl in lvls:
         cp = calc_cp(attack + 15, defense + 15, stamina + 15, lvl)
         embed.add_field(name=f'**__Lvl {lvl}__**', value=str(cp), inline=True)
@@ -191,23 +197,21 @@ async def cp(ctx, target_cp: int):
 
             # TODO: if max CP == target CP, add to d. Change range to (12, 15)
             # calculate max CP
-            max_cp = calc_cp(attack + 15, defense + 15, stamina + 15, 41)
+            max_cp = calc_cp(attack + 15, defense + 15, stamina + 15, 51)
             # calculate min CP
             min_cp = calc_cp(attack, defense, stamina, 1)
 
             if target_cp > max_cp or target_cp < min_cp:
                 continue
 
-            for i in range(2, 82):
+            for i in range(2, 101):
                 level = i / 2.0
-                if level == 40.5:
-                    level = 41
                 if level % 2 == 0 or level % 2 == 1:
                     level = int(level)
 
-                for atk_iv in range(12, 16):
-                    for def_iv in range(12, 16):
-                        for sta_iv in range(12, 16):
+                for atk_iv in range(13, 16):
+                    for def_iv in range(13, 16):
+                        for sta_iv in range(13, 16):
                             atk_total = attack + atk_iv
                             def_total = defense + def_iv
                             sta_total = stamina + sta_iv
@@ -236,8 +240,10 @@ async def cp(ctx, target_cp: int):
                 output_string = output_string.strip()
                 output_string += '`\n'
         if len(output_string) > 1999:
-            await ctx.send('Too many results')
-        await ctx.send(output_string)
+            await ctx.send('Too many results, showing only a few...')
+            await ctx.send(output_string[:1999])
+        else:
+            await ctx.send(output_string)
 
 
 @bot.command()

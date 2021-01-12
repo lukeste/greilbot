@@ -116536,6 +116536,14 @@
             "baseAttack": 289,
             "baseDefense": 194
          }
+      },
+      {
+        "pokemonId": "MEGA_ABOMASNOW",
+        "stats": {
+          "baseStamina": 207,
+          "baseAttack": 240,
+          "baseDefense": 191
+        }
       }
    ]
 }
