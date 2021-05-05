@@ -116498,7 +116498,7 @@
          }
       },
       {
-         "pokemonId": "MEGA_BlASTOISE",
+         "pokemonId": "MEGA_BLASTOISE",
          "stats": {
             "baseStamina": 188,
             "baseAttack": 264,
@@ -116543,6 +116543,38 @@
           "baseStamina": 207,
           "baseAttack": 240,
           "baseDefense": 191
+        }
+      },
+      {
+        "pokemonId": "MEGA_LOPUNNY",
+        "stats": {
+          "baseStamina": 163,
+          "baseAttack": 282,
+          "baseDefense": 214
+        }
+      },
+      {
+        "pokemonId": "MEGA_ALTARIA",
+        "stats": {
+          "baseStamina": 181,
+          "baseAttack": 222,
+          "baseDefense": 218
+        }
+      },
+      {
+        "pokemonId": "MEGA_MANECTRIC",
+        "stats": {
+          "baseStamina": 172,
+          "baseAttack": 286,
+          "baseDefense": 179
+        }
+      },
+      {
+        "pokemonId": "MEGA_GYARADOS",
+        "stats": {
+          "baseStamina": 216,
+          "baseAttack": 292,
+          "baseDefense": 247
         }
       }
    ]
