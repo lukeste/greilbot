@@ -116474,6 +116474,46 @@
          ]
       },
       {
+         "pokemonId": "XERNEAS",
+         "stats": {
+            "baseStamina": 246,
+            "baseAttack": 250,
+	    "baseDefense": 185
+         }
+      },
+      {
+         "pokemonId": "YVELTAL",
+         "stats": {
+            "baseStamina": 246,
+            "baseAttack": 250,
+	    "baseDefense": 185
+         }
+      },
+      {
+         "pokemonId": "ZARUDE",
+         "stats": {
+            "baseStamina": 233,
+            "baseAttack": 242,
+	    "baseDefense": 215
+         }
+      },
+      {
+         "pokemonId": "ZACIAN",
+         "stats": {
+            "baseStamina": 192,
+            "baseAttack": 254,
+	    "baseDefense": 192
+         }
+      },
+      {
+         "pokemonId": "ZAMAZENTA",
+         "stats": {
+            "baseStamina": 192,
+            "baseAttack": 254,
+	    "baseDefense": 236
+         }
+      },
+      {
          "pokemonId": "MEGA_VENUSAUR",
          "stats": {
             "baseStamina": 190,
@@ -116575,6 +116615,30 @@
           "baseStamina": 216,
           "baseAttack": 292,
           "baseDefense": 247
+        }
+      },
+      {
+        "pokemonId": "MEGA_HERACROSS",
+        "stats": {
+          "baseStamina": 190,
+          "baseAttack": 334,
+          "baseDefense": 223
+        }
+      },
+      {
+        "pokemonId": "MEGA_SLOWBRO",
+        "stats": {
+          "baseStamina": 216,
+          "baseAttack": 224,
+          "baseDefense": 259
+        }
+      },
+      {
+        "pokemonId": "MEGA_ABSOL",
+        "stats": {
+          "baseStamina": 163,
+          "baseAttack": 314,
+          "baseDefense": 130
         }
       }
    ]
