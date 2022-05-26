@@ -116643,6 +116643,7 @@
       },
       {
         "pokemonId": "MEGA_KANGASKHAN",
+        "stats": {
           "baseStamina": 233,
           "baseAttack": 246,
           "baseDefense": 210
@@ -116650,6 +116651,7 @@
       },
       {
         "pokemonId": "MEGA_LATIOS",
+        "stats": {
           "baseStamina": 190,
           "baseAttack": 335,
           "baseDefense": 241
@@ -116657,6 +116659,7 @@
       },
       {
         "pokemonId": "MEGA_LATIAS",
+        "stats": {
           "baseStamina": 190,
           "baseAttack": 289,
           "baseDefense": 297
@@ -116664,6 +116667,7 @@
       },
       {
         "pokemonId": "HOOPA_UNBOUND",
+        "stats": {
           "baseStamina": 173,
           "baseAttack": 311,
           "baseDefense": 191
