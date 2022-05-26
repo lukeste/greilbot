@@ -184,16 +184,13 @@ async def hundo(ctx, pokemon: str):
 @bot.command()
 async def cp(ctx, target_cp: int):
     cp_dict = {}
-    with open('pokemon.json', 'r') as f:
+    with open('pokemon_4100.json', 'r') as f:
         dex = json.load(f)
-        unreleased = open('unreleased.txt').read().splitlines()
-        for mon in dex['pokemon']:
-            name = mon['pokemonId']
-            if name in unreleased:
-                continue
-            stamina = mon['stats']['baseStamina']
-            attack = mon['stats']['baseAttack']
-            defense = mon['stats']['baseDefense']
+        # unreleased = open('unreleased.txt').read().splitlines()
+        for mon in dex:
+            stamina = mon['hp']
+            attack = mon['atk']
+            defense = mon['def']
 
             # TODO: if max CP == target CP, add to d. Change range to (12, 15)
             # calculate max CP
@@ -220,12 +217,12 @@ async def cp(ctx, target_cp: int):
                             cp = calc_cp(atk_total, def_total, sta_total, level)
                             if cp == target_cp:
                                 iv_string = f'{atk_iv}/{def_iv}/{sta_iv}'
-                                if name not in cp_dict:
-                                    cp_dict[name] = {level: [iv_string]}
-                                elif level in cp_dict[name]:
-                                    cp_dict[name][level].append(iv_string)
+                                if mon not in cp_dict:
+                                    cp_dict[mon] = {level: [iv_string]}
+                                elif level in cp_dict[mon]:
+                                    cp_dict[mon][level].append(iv_string)
                                 else:
-                                    cp_dict[name].update({level: [iv_string]})
+                                    cp_dict[mon].update({level: [iv_string]})
 
     if len(cp_dict) == 0:
         await ctx.send('No combinations found')
