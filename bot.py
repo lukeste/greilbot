@@ -206,9 +206,9 @@ async def cp(ctx, target_cp: int):
                 if level % 2 == 0 or level % 2 == 1:
                     level = int(level)
 
-                for atk_iv in range(13, 16):
-                    for def_iv in range(13, 16):
-                        for sta_iv in range(13, 16):
+                for atk_iv in range(12, 16):
+                    for def_iv in range(12, 16):
+                        for sta_iv in range(12, 16):
                             atk_total = attack + atk_iv
                             def_total = defense + def_iv
                             sta_total = stamina + sta_iv
