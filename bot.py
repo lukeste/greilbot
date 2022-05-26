@@ -188,9 +188,9 @@ async def cp(ctx, target_cp: int):
         dex = json.load(f)
         # unreleased = open('unreleased.txt').read().splitlines()
         for mon in dex:
-            stamina = mon['hp']
-            attack = mon['atk']
-            defense = mon['def']
+            stamina = dex[mon]['hp']
+            attack = dex[mon]['atk']
+            defense = dex[mon]['def']
 
             # TODO: if max CP == target CP, add to d. Change range to (12, 15)
             # calculate max CP
