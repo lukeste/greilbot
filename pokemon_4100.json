@@ -1,0 +1,232 @@
+{
+	"Thundurus (Therian Forme)": {
+		"hp": 188,
+		"atk": 295,
+		"def": 161
+	},
+	"Mega Steelix": {
+		"hp": 181,
+		"atk": 212,
+		"def": 327
+	},
+	"Mega Pidgeot": {
+		"hp": 195,
+		"atk": 280,
+		"def": 175
+	},
+	"Giratina (Origin Forme)": {
+		"hp": 284,
+		"atk": 225,
+		"def": 187
+	},
+	"Terrakion": {
+		"hp": 209,
+		"atk": 260,
+		"def": 192
+	},
+	"Mega Venusaur": {
+		"hp": 190,
+		"atk": 241,
+		"def": 246
+	},
+	"Lugia": {
+		"hp": 235,
+		"atk": 193,
+		"def": 310
+	},
+	"Rhyperior": {
+		"hp": 251,
+		"atk": 241,
+		"def": 190
+	},
+	"Darkrai": {
+		"hp": 172,
+		"atk": 285,
+		"def": 198
+	},
+	"Mega Lopunny": {
+		"hp": 163,
+		"atk": 285,
+		"def": 214
+	},
+	"Salamence": {
+		"hp": 216,
+		"atk": 277,
+		"def": 168
+	},
+	"Heatran": {
+		"hp": 209,
+		"atk": 251,
+		"def": 213
+	},
+	"Mega Slowbro": {
+		"hp": 216,
+		"atk": 224,
+		"def": 259
+	},
+	"Yveltal": {
+		"hp": 246,
+		"atk": 250,
+		"def": 185
+	},
+	"Xerneas": {
+		"hp": 246,
+		"atk": 250,
+		"def": 185
+	},
+	"Metagross": {
+		"hp": 190,
+		"atk": 257,
+		"def": 228
+	},
+	"Dragonite": {
+		"hp": 209,
+		"atk": 263,
+		"def": 198
+	},
+	"Latios": {
+		"hp": 190,
+		"atk": 268,
+		"def": 212
+	},
+	"Zamazenta - Hero of Many Battles": {
+		"hp": 192,
+		"atk": 254,
+		"def": 236
+	},
+	"Zacian - Hero of Many Battles": {
+		"hp": 192,
+		"atk": 254,
+		"def": 236
+	},
+	"Zarude": {
+		"hp": 233,
+		"atk": 242,
+		"def": 215
+	},
+	"Tyranitar": {
+		"hp": 225,
+		"atk": 251,
+		"def": 207
+	},
+	"Rayquaza": {
+		"hp": 213,
+		"atk": 284,
+		"def": 170
+	},
+	"Mega Houndoom": {
+		"hp": 181,
+		"atk": 289,
+		"def": 194
+	},
+	"Mega Kangaskhan": {
+		"hp": 233,
+		"atk": 246,
+		"def": 210
+	},
+	"Mega Charizard X": {
+		"hp": 186,
+		"atk": 273,
+		"def": 213
+	},
+	"Ho-Oh": {
+		"hp": 214,
+		"atk": 239,
+		"def": 244
+	},
+	"Landorus (Therian Forme)": {
+		"hp": 205,
+		"atk": 289,
+		"def": 179
+	},
+	"Mega Blastoise": {
+		"hp": 188,
+		"atk": 264,
+		"def": 237
+	},
+	"Garchomp": {
+		"hp": 239,
+		"atk": 261,
+		"def": 193
+	},
+	"Meloetta (Aria Forme)": {
+		"hp": 225,
+		"atk": 250,
+		"def": 225
+	},
+	"Palkia": {
+		"hp": 189,
+		"atk": 280,
+		"def": 215
+	},
+	"Hoopa (Unbound)": {
+		"hp": 173,
+		"atk": 311,
+		"def": 191
+	},
+	"Zekrom / Reshiram / Dialga": {
+		"hp": 205,
+		"atk": 275,
+		"def": 211
+	},
+	"Kyogre / Groudon": {
+		"hp": 205,
+		"atk": 270,
+		"def": 228
+	},
+	"Mega Aerodactyl": {
+		"hp": 190,
+		"atk": 292,
+		"def": 210
+	},
+	"Mewtwo": {
+		"hp": 214,
+		"atk": 300,
+		"def": 182
+	},
+	"Mega Ampharos": {
+		"hp": 207,
+		"atk": 294,
+		"def": 203
+	},
+	"Mega Gengar": {
+		"hp": 155,
+		"atk": 349,
+		"def": 199
+	},
+	"Regigigas": {
+		"hp": 221,
+		"atk": 287,
+		"def": 210
+	},
+	"Slaking": {
+		"hp": 284,
+		"atk": 290,
+		"def": 166
+	},
+	"Mega Charizard Y": {
+		"hp": 186,
+		"atk": 319,
+		"def": 212
+	},
+	"Mega Gyarados": {
+		"hp": 216,
+		"atk": 292,
+		"def": 247
+	},
+	"Mega Latias": {
+		"hp": 190,
+		"atk": 289,
+		"def": 297
+	},
+	"Mega Heracross": {
+		"hp": 190,
+		"atk": 334,
+		"def": 223
+	},
+	"Mega Latios": {
+		"hp": 190,
+		"atk": 335,
+		"def": 241
+	}
+}
